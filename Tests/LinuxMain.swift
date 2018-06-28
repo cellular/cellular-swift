@@ -1,7 +1,5 @@
 import XCTest
-@testable import CodableTests
-@testable import LockingTests
-@testable import ResultTests
+@testable import UnitTests
 
 XCTMain([
     testCase(CodeableTests.allTests),
