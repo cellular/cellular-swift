@@ -46,7 +46,7 @@ before_install:
 
 script:
     - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
-        ./.travis/build/linux.sh
+        ./.travis/build/linux.sh;
       else
-        ./.travis/build/macos.sh
+        ./.travis/build/macos.sh;
       fi
