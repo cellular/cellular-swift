@@ -5,7 +5,6 @@ sudo: required
 dist: trusty
 language: generic
 osx_image: xcode9.3
-env: SWIFT_VERSION=swift-4.1
 branches:
     only:
         - master
@@ -15,7 +14,7 @@ matrix:
   include:
     # Linux
     - os: linux
-      env: TARGET="linux"
+      env: SWIFT_VERSION=swift-4.1
     # iOS
     - os: osx
       env: DESTINATION="OS=11.3,name=iPhone X"         RUN_TESTS="YES"  POD_LINT="YES"
@@ -49,10 +48,8 @@ before_install:
       fi
 
 script:
-    - if [[ "$TARGET" == "linux" ]]; then
-        swift build;
-        swift build -c release;
-        swift test;
+    - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
+        ./travis/build/linux.sh
       else
         ./travis/build/macos.sh
       fi
