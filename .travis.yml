@@ -29,12 +29,12 @@ env:
 before_install:
     - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
         eval "$(curl -sL https://swiftenv.fuller.li/install.sh)";
-    else
+      else
         gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet;
-    fi
+      fi
 script:
     - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
         ./.travis/build/linux.sh
-    else
+      else
         ./travis/build/macos.sh
-    fi
+      fi
