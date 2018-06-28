@@ -14,8 +14,7 @@ let package = Package(
         .target(name: "Storyboard", path: "Sources/Storyboard"),
         .testTarget(
             name: "UnitTests",
-            dependencies: ["Result", "Codable", "Locking", "Storyboard"],
-            path: "Tests"
+            dependencies: ["Result", "Codable", "Locking", "Storyboard"]
         )
     ]
 )
