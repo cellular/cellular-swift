@@ -14,34 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CELLULAR::Result"
-               BuildableName = "Result.framework"
-               BlueprintName = "Result"
-               ReferencedContainer = "container:CELLULAR.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CELLULAR::Storyboard"
-               BuildableName = "Storyboard.framework"
-               BlueprintName = "Storyboard"
-               ReferencedContainer = "container:CELLULAR.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "CELLULAR::Locking"
                BuildableName = "Locking.framework"
                BlueprintName = "Locking"
@@ -59,6 +31,34 @@
                BlueprintIdentifier = "CELLULAR::Codable"
                BuildableName = "Codable.framework"
                BlueprintName = "Codable"
+               ReferencedContainer = "container:CELLULAR.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CELLULAR::Result"
+               BuildableName = "Result.framework"
+               BlueprintName = "Result"
+               ReferencedContainer = "container:CELLULAR.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CELLULAR::Storyboard"
+               BuildableName = "Storyboard.framework"
+               BlueprintName = "Storyboard"
                ReferencedContainer = "container:CELLULAR.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -97,9 +97,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CELLULAR::Result"
-            BuildableName = "Result.framework"
-            BlueprintName = "Result"
+            BlueprintIdentifier = "CELLULAR::Locking"
+            BuildableName = "Locking.framework"
+            BlueprintName = "Locking"
             ReferencedContainer = "container:CELLULAR.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

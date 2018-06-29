@@ -9,25 +9,25 @@
 /* Begin PBXAggregateTarget section */
 		"CELLULAR::CELLULAR::ProductTarget" /* CELLULAR */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_31 /* Build configuration list for PBXAggregateTarget "CELLULAR" */;
+			buildConfigurationList = OBJ_32 /* Build configuration list for PBXAggregateTarget "CELLULAR" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_34 /* PBXTargetDependency */,
-				OBJ_36 /* PBXTargetDependency */,
-				OBJ_38 /* PBXTargetDependency */,
-				OBJ_40 /* PBXTargetDependency */,
+				OBJ_35 /* PBXTargetDependency */,
+				OBJ_37 /* PBXTargetDependency */,
+				OBJ_39 /* PBXTargetDependency */,
+				OBJ_41 /* PBXTargetDependency */,
 			);
 			name = CELLULAR;
 			productName = CELLULAR;
 		};
 		"CELLULAR::CELLULARPackageTests::ProductTarget" /* CELLULARPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_49 /* Build configuration list for PBXAggregateTarget "CELLULARPackageTests" */;
+			buildConfigurationList = OBJ_50 /* Build configuration list for PBXAggregateTarget "CELLULARPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_52 /* PBXTargetDependency */,
+				OBJ_53 /* PBXTargetDependency */,
 			);
 			name = CELLULARPackageTests;
 			productName = CELLULARPackageTests;
@@ -35,82 +35,82 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		OBJ_47 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_58 /* KeyedDecodingContainer+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* KeyedDecodingContainer+Convenience.swift */; };
-		OBJ_64 /* DispatchLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* DispatchLock.swift */; };
-		OBJ_65 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Lock.swift */; };
-		OBJ_66 /* NSLock+Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* NSLock+Lock.swift */; };
-		OBJ_67 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Protected.swift */; };
-		OBJ_73 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Result.swift */; };
-		OBJ_79 /* StoryboardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* StoryboardIdentifier.swift */; };
-		OBJ_85 /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* CodableTests.swift */; };
-		OBJ_86 /* LockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* LockingTests.swift */; };
-		OBJ_87 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* ResultTests.swift */; };
-		OBJ_88 /* StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* StoryboardTests.swift */; };
-		OBJ_90 /* Storyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CELLULAR::Storyboard::Product" /* Storyboard.framework */; };
-		OBJ_91 /* Locking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CELLULAR::Locking::Product" /* Locking.framework */; };
-		OBJ_92 /* Codable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CELLULAR::Codable::Product" /* Codable.framework */; };
-		OBJ_93 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CELLULAR::Result::Product" /* Result.framework */; };
+		OBJ_48 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_59 /* KeyedDecodingContainer+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* KeyedDecodingContainer+Convenience.swift */; };
+		OBJ_65 /* DispatchLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* DispatchLock.swift */; };
+		OBJ_66 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Lock.swift */; };
+		OBJ_67 /* NSLock+Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* NSLock+Lock.swift */; };
+		OBJ_68 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Protected.swift */; };
+		OBJ_74 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Result.swift */; };
+		OBJ_80 /* StoryboardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* StoryboardIdentifier.swift */; };
+		OBJ_86 /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* CodableTests.swift */; };
+		OBJ_87 /* LockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* LockingTests.swift */; };
+		OBJ_88 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* ResultTests.swift */; };
+		OBJ_89 /* StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* StoryboardTests.swift */; };
+		OBJ_91 /* Storyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CELLULAR::Storyboard::Product" /* Storyboard.framework */; };
+		OBJ_92 /* Locking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CELLULAR::Locking::Product" /* Locking.framework */; };
+		OBJ_93 /* Codable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CELLULAR::Codable::Product" /* Codable.framework */; };
+		OBJ_94 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CELLULAR::Result::Product" /* Result.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		152F049120E5211400135301 /* PBXContainerItemProxy */ = {
+		1551345220E65B7B008E97FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CELLULAR::Storyboard";
 			remoteInfo = Storyboard;
 		};
-		152F049220E5211400135301 /* PBXContainerItemProxy */ = {
+		1551345320E65B7B008E97FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CELLULAR::Locking";
 			remoteInfo = Locking;
 		};
-		152F049320E5211400135301 /* PBXContainerItemProxy */ = {
+		1551345420E65B7B008E97FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CELLULAR::Codable";
 			remoteInfo = Codable;
 		};
-		152F049420E5211400135301 /* PBXContainerItemProxy */ = {
+		1551345520E65B7B008E97FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CELLULAR::Result";
 			remoteInfo = Result;
 		};
-		152F049520E5211400135301 /* PBXContainerItemProxy */ = {
+		1551345620E65B7C008E97FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CELLULAR::Result";
 			remoteInfo = Result;
 		};
-		152F049620E5211400135301 /* PBXContainerItemProxy */ = {
+		1551345720E65B7C008E97FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CELLULAR::Codable";
 			remoteInfo = Codable;
 		};
-		152F049720E5211400135301 /* PBXContainerItemProxy */ = {
+		1551345820E65B7C008E97FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CELLULAR::Locking";
 			remoteInfo = Locking;
 		};
-		152F049820E5211400135301 /* PBXContainerItemProxy */ = {
+		1551345920E65B7C008E97FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CELLULAR::Storyboard";
 			remoteInfo = Storyboard;
 		};
-		152F049920E5211400135301 /* PBXContainerItemProxy */ = {
+		1551345A20E65B7C008E97FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -131,51 +131,51 @@
 		OBJ_16 /* Lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
 		OBJ_17 /* NSLock+Lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLock+Lock.swift"; sourceTree = "<group>"; };
 		OBJ_18 /* Protected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protected.swift; sourceTree = "<group>"; };
-		OBJ_20 /* CodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTests.swift; sourceTree = "<group>"; };
-		OBJ_21 /* LockingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockingTests.swift; sourceTree = "<group>"; };
-		OBJ_22 /* ResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
-		OBJ_23 /* StoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardTests.swift; sourceTree = "<group>"; };
+		OBJ_21 /* CodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTests.swift; sourceTree = "<group>"; };
+		OBJ_22 /* LockingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockingTests.swift; sourceTree = "<group>"; };
+		OBJ_23 /* ResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
+		OBJ_24 /* StoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* StoryboardIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_59 /* Frameworks */ = {
+		OBJ_60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_68 /* Frameworks */ = {
+		OBJ_69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_74 /* Frameworks */ = {
+		OBJ_75 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_80 /* Frameworks */ = {
+		OBJ_81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_89 /* Frameworks */ = {
+		OBJ_90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_90 /* Storyboard.framework in Frameworks */,
-				OBJ_91 /* Locking.framework in Frameworks */,
-				OBJ_92 /* Codable.framework in Frameworks */,
-				OBJ_93 /* Result.framework in Frameworks */,
+				OBJ_91 /* Storyboard.framework in Frameworks */,
+				OBJ_92 /* Locking.framework in Frameworks */,
+				OBJ_93 /* Codable.framework in Frameworks */,
+				OBJ_94 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,22 +215,31 @@
 		OBJ_19 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_20 /* CodableTests.swift */,
-				OBJ_21 /* LockingTests.swift */,
-				OBJ_22 /* ResultTests.swift */,
-				OBJ_23 /* StoryboardTests.swift */,
+				OBJ_20 /* UnitTests */,
 			);
-			path = Tests;
+			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_24 /* Products */ = {
+		OBJ_20 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				"CELLULAR::Result::Product" /* Result.framework */,
-				"CELLULAR::Storyboard::Product" /* Storyboard.framework */,
+				OBJ_21 /* CodableTests.swift */,
+				OBJ_22 /* LockingTests.swift */,
+				OBJ_23 /* ResultTests.swift */,
+				OBJ_24 /* StoryboardTests.swift */,
+			);
+			name = UnitTests;
+			path = Tests/UnitTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 				"CELLULAR::UnitTests::Product" /* UnitTests.xctest */,
 				"CELLULAR::Locking::Product" /* Locking.framework */,
 				"CELLULAR::Codable::Product" /* Codable.framework */,
+				"CELLULAR::Result::Product" /* Result.framework */,
+				"CELLULAR::Storyboard::Product" /* Storyboard.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -241,7 +250,7 @@
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_19 /* Tests */,
-				OBJ_24 /* Products */,
+				OBJ_25 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -271,10 +280,10 @@
 /* Begin PBXNativeTarget section */
 		"CELLULAR::Codable" /* Codable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_54 /* Build configuration list for PBXNativeTarget "Codable" */;
+			buildConfigurationList = OBJ_55 /* Build configuration list for PBXNativeTarget "Codable" */;
 			buildPhases = (
-				OBJ_57 /* Sources */,
-				OBJ_59 /* Frameworks */,
+				OBJ_58 /* Sources */,
+				OBJ_60 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,10 +296,10 @@
 		};
 		"CELLULAR::Locking" /* Locking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_60 /* Build configuration list for PBXNativeTarget "Locking" */;
+			buildConfigurationList = OBJ_61 /* Build configuration list for PBXNativeTarget "Locking" */;
 			buildPhases = (
-				OBJ_63 /* Sources */,
-				OBJ_68 /* Frameworks */,
+				OBJ_64 /* Sources */,
+				OBJ_69 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,10 +312,10 @@
 		};
 		"CELLULAR::Result" /* Result */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_69 /* Build configuration list for PBXNativeTarget "Result" */;
+			buildConfigurationList = OBJ_70 /* Build configuration list for PBXNativeTarget "Result" */;
 			buildPhases = (
-				OBJ_72 /* Sources */,
-				OBJ_74 /* Frameworks */,
+				OBJ_73 /* Sources */,
+				OBJ_75 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,10 +328,10 @@
 		};
 		"CELLULAR::Storyboard" /* Storyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_75 /* Build configuration list for PBXNativeTarget "Storyboard" */;
+			buildConfigurationList = OBJ_76 /* Build configuration list for PBXNativeTarget "Storyboard" */;
 			buildPhases = (
-				OBJ_78 /* Sources */,
-				OBJ_80 /* Frameworks */,
+				OBJ_79 /* Sources */,
+				OBJ_81 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -335,9 +344,9 @@
 		};
 		"CELLULAR::SwiftPMPackageDescription" /* CELLULARPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_43 /* Build configuration list for PBXNativeTarget "CELLULARPackageDescription" */;
+			buildConfigurationList = OBJ_44 /* Build configuration list for PBXNativeTarget "CELLULARPackageDescription" */;
 			buildPhases = (
-				OBJ_46 /* Sources */,
+				OBJ_47 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -349,18 +358,18 @@
 		};
 		"CELLULAR::UnitTests" /* UnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_81 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildConfigurationList = OBJ_82 /* Build configuration list for PBXNativeTarget "UnitTests" */;
 			buildPhases = (
-				OBJ_84 /* Sources */,
-				OBJ_89 /* Frameworks */,
+				OBJ_85 /* Sources */,
+				OBJ_90 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_94 /* PBXTargetDependency */,
 				OBJ_95 /* PBXTargetDependency */,
 				OBJ_96 /* PBXTargetDependency */,
 				OBJ_97 /* PBXTargetDependency */,
+				OBJ_98 /* PBXTargetDependency */,
 			);
 			name = UnitTests;
 			productName = UnitTests;
@@ -383,7 +392,7 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_24 /* Products */;
+			productRefGroup = OBJ_25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -400,107 +409,107 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_46 /* Sources */ = {
+		OBJ_47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_47 /* Package.swift in Sources */,
+				OBJ_48 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_57 /* Sources */ = {
+		OBJ_58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_58 /* KeyedDecodingContainer+Convenience.swift in Sources */,
+				OBJ_59 /* KeyedDecodingContainer+Convenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_63 /* Sources */ = {
+		OBJ_64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_64 /* DispatchLock.swift in Sources */,
-				OBJ_65 /* Lock.swift in Sources */,
-				OBJ_66 /* NSLock+Lock.swift in Sources */,
-				OBJ_67 /* Protected.swift in Sources */,
+				OBJ_65 /* DispatchLock.swift in Sources */,
+				OBJ_66 /* Lock.swift in Sources */,
+				OBJ_67 /* NSLock+Lock.swift in Sources */,
+				OBJ_68 /* Protected.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_72 /* Sources */ = {
+		OBJ_73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_73 /* Result.swift in Sources */,
+				OBJ_74 /* Result.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_78 /* Sources */ = {
+		OBJ_79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_79 /* StoryboardIdentifier.swift in Sources */,
+				OBJ_80 /* StoryboardIdentifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_84 /* Sources */ = {
+		OBJ_85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_85 /* CodableTests.swift in Sources */,
-				OBJ_86 /* LockingTests.swift in Sources */,
-				OBJ_87 /* ResultTests.swift in Sources */,
-				OBJ_88 /* StoryboardTests.swift in Sources */,
+				OBJ_86 /* CodableTests.swift in Sources */,
+				OBJ_87 /* LockingTests.swift in Sources */,
+				OBJ_88 /* ResultTests.swift in Sources */,
+				OBJ_89 /* StoryboardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_34 /* PBXTargetDependency */ = {
+		OBJ_35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "CELLULAR::Result" /* Result */;
-			targetProxy = 152F049520E5211400135301 /* PBXContainerItemProxy */;
+			targetProxy = 1551345620E65B7C008E97FD /* PBXContainerItemProxy */;
 		};
-		OBJ_36 /* PBXTargetDependency */ = {
+		OBJ_37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "CELLULAR::Codable" /* Codable */;
-			targetProxy = 152F049620E5211400135301 /* PBXContainerItemProxy */;
+			targetProxy = 1551345720E65B7C008E97FD /* PBXContainerItemProxy */;
 		};
-		OBJ_38 /* PBXTargetDependency */ = {
+		OBJ_39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "CELLULAR::Locking" /* Locking */;
-			targetProxy = 152F049720E5211400135301 /* PBXContainerItemProxy */;
+			targetProxy = 1551345820E65B7C008E97FD /* PBXContainerItemProxy */;
 		};
-		OBJ_40 /* PBXTargetDependency */ = {
+		OBJ_41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "CELLULAR::Storyboard" /* Storyboard */;
-			targetProxy = 152F049820E5211400135301 /* PBXContainerItemProxy */;
+			targetProxy = 1551345920E65B7C008E97FD /* PBXContainerItemProxy */;
 		};
-		OBJ_52 /* PBXTargetDependency */ = {
+		OBJ_53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "CELLULAR::UnitTests" /* UnitTests */;
-			targetProxy = 152F049920E5211400135301 /* PBXContainerItemProxy */;
-		};
-		OBJ_94 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "CELLULAR::Storyboard" /* Storyboard */;
-			targetProxy = 152F049120E5211400135301 /* PBXContainerItemProxy */;
+			targetProxy = 1551345A20E65B7C008E97FD /* PBXContainerItemProxy */;
 		};
 		OBJ_95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "CELLULAR::Locking" /* Locking */;
-			targetProxy = 152F049220E5211400135301 /* PBXContainerItemProxy */;
+			target = "CELLULAR::Storyboard" /* Storyboard */;
+			targetProxy = 1551345220E65B7B008E97FD /* PBXContainerItemProxy */;
 		};
 		OBJ_96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "CELLULAR::Codable" /* Codable */;
-			targetProxy = 152F049320E5211400135301 /* PBXContainerItemProxy */;
+			target = "CELLULAR::Locking" /* Locking */;
+			targetProxy = 1551345320E65B7B008E97FD /* PBXContainerItemProxy */;
 		};
 		OBJ_97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			target = "CELLULAR::Codable" /* Codable */;
+			targetProxy = 1551345420E65B7B008E97FD /* PBXContainerItemProxy */;
+		};
+		OBJ_98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
 			target = "CELLULAR::Result" /* Result */;
-			targetProxy = 152F049420E5211400135301 /* PBXContainerItemProxy */;
+			targetProxy = 1551345520E65B7B008E97FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -527,13 +536,13 @@
 			};
 			name = Debug;
 		};
-		OBJ_32 /* Debug */ = {
+		OBJ_33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		OBJ_33 /* Release */ = {
+		OBJ_34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
@@ -559,7 +568,7 @@
 			};
 			name = Release;
 		};
-		OBJ_44 /* Debug */ = {
+		OBJ_45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -568,7 +577,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_45 /* Release */ = {
+		OBJ_46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -577,19 +586,19 @@
 			};
 			name = Release;
 		};
-		OBJ_50 /* Debug */ = {
+		OBJ_51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		OBJ_51 /* Release */ = {
+		OBJ_52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Release;
 		};
-		OBJ_55 /* Debug */ = {
+		OBJ_56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -612,7 +621,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_56 /* Release */ = {
+		OBJ_57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -635,7 +644,7 @@
 			};
 			name = Release;
 		};
-		OBJ_61 /* Debug */ = {
+		OBJ_62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -658,7 +667,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_62 /* Release */ = {
+		OBJ_63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -681,7 +690,7 @@
 			};
 			name = Release;
 		};
-		OBJ_70 /* Debug */ = {
+		OBJ_71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -704,7 +713,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_71 /* Release */ = {
+		OBJ_72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -727,7 +736,7 @@
 			};
 			name = Release;
 		};
-		OBJ_76 /* Debug */ = {
+		OBJ_77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -750,7 +759,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_77 /* Release */ = {
+		OBJ_78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -773,7 +782,7 @@
 			};
 			name = Release;
 		};
-		OBJ_82 /* Debug */ = {
+		OBJ_83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -792,7 +801,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_83 /* Release */ = {
+		OBJ_84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -823,74 +832,74 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_31 /* Build configuration list for PBXAggregateTarget "CELLULAR" */ = {
+		OBJ_32 /* Build configuration list for PBXAggregateTarget "CELLULAR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_32 /* Debug */,
-				OBJ_33 /* Release */,
+				OBJ_33 /* Debug */,
+				OBJ_34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_43 /* Build configuration list for PBXNativeTarget "CELLULARPackageDescription" */ = {
+		OBJ_44 /* Build configuration list for PBXNativeTarget "CELLULARPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_44 /* Debug */,
-				OBJ_45 /* Release */,
+				OBJ_45 /* Debug */,
+				OBJ_46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_49 /* Build configuration list for PBXAggregateTarget "CELLULARPackageTests" */ = {
+		OBJ_50 /* Build configuration list for PBXAggregateTarget "CELLULARPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_50 /* Debug */,
-				OBJ_51 /* Release */,
+				OBJ_51 /* Debug */,
+				OBJ_52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_54 /* Build configuration list for PBXNativeTarget "Codable" */ = {
+		OBJ_55 /* Build configuration list for PBXNativeTarget "Codable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_55 /* Debug */,
-				OBJ_56 /* Release */,
+				OBJ_56 /* Debug */,
+				OBJ_57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_60 /* Build configuration list for PBXNativeTarget "Locking" */ = {
+		OBJ_61 /* Build configuration list for PBXNativeTarget "Locking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_61 /* Debug */,
-				OBJ_62 /* Release */,
+				OBJ_62 /* Debug */,
+				OBJ_63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_69 /* Build configuration list for PBXNativeTarget "Result" */ = {
+		OBJ_70 /* Build configuration list for PBXNativeTarget "Result" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_70 /* Debug */,
-				OBJ_71 /* Release */,
+				OBJ_71 /* Debug */,
+				OBJ_72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_75 /* Build configuration list for PBXNativeTarget "Storyboard" */ = {
+		OBJ_76 /* Build configuration list for PBXNativeTarget "Storyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_76 /* Debug */,
-				OBJ_77 /* Release */,
+				OBJ_77 /* Debug */,
+				OBJ_78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_81 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+		OBJ_82 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_82 /* Debug */,
-				OBJ_83 /* Release */,
+				OBJ_83 /* Debug */,
+				OBJ_84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
