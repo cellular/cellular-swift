@@ -2,7 +2,7 @@ import XCTest
 @testable import UnitTests
 
 XCTMain([
-    testCase(CodeableTests.allTests),
+    testCase(CodableTests.allTests),
     testCase(LockingTests.allTests),
     testCase(ResultTests.allTests)
 ])
