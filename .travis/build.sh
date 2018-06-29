@@ -1,17 +1,17 @@
 #!/bin/bash
 
 if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
-    swift build;
-    swift build -c release;
-    swift test;
+    export PATH="$HOME/.swiftenv/bin:$HOME/.swiftenv/shims:$PATH";
+    swift build; swift build -c release; swift test;
 else
+    export PROJECT=CELLULAR.xcodeproj;
+    export SCHEME=CELLULAR-Package;
+
+    # Prepare
     set -o pipefail;
     xcodebuild -version;
     xcodebuild -showsdks;
     swift package generate-xcodeproj;
-
-    PROJECT=CELLULAR.xcodeproj;
-    SCHEME=CELLULAR-Package;
 
     # Build Framework in Debug and Run Tests if specified
     if [ $RUN_TESTS == "YES" ]; then
