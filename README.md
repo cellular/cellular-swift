@@ -24,6 +24,8 @@ There are several extensions on `KeyedDecodingContainer`. Most of which are heav
 Throughout the `Codable` examples, the following struct will be used: 
 
 ```swift
+import CELLULAR
+
 public struct Planet: Codable {
 
     public var discoverer: String
