@@ -39,13 +39,12 @@ public struct Planet: Codable {
     public var surfacePressure: Double? // bars
     
     public var atmosphericComposition: [String]    
-}
 ```
 
 #### 1. Allows `Foundation` types to be inferred on value assignment
 
 ```swift
-public init(from decoder: Decoder) throws {
+    public init(from decoder: Decoder) throws {
 	let container = try decoder.container(keyedBy: CodingKeys.self)
 	
 	discoverer = try container.decode(forKey: .discoverer) // String
