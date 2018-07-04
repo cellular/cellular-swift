@@ -63,6 +63,7 @@ public struct Planet: Codable {
 
 ```swift
 	atmosphericComposition = try container.decode(forKey: .atmosphericComposition, allowInvalidElements: true) ?? []
+    }
 }
 ```
 
