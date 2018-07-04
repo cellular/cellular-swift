@@ -7,7 +7,7 @@
 [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20macOS%20%7C%20linux-lightgrey.svg)](https://img.shields.io/badge/platform-iOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20macOS%20%7C%20linux-lightgrey.svg)
 [![Twitter](https://img.shields.io/badge/twitter-@CELLULAR-blue.svg?style=flat)](https://twitter.com/cellular)
 
-A collection of Swift utilities that we share across swift-based projects at CELLULAR. It has no external dependency.
+A collection of Swift utilities that we share across swift-based projects at CELLULAR. It is a standalone module, no external dependencies.
 
 - [Features](#features)
 - [Requirements](#requirements)
