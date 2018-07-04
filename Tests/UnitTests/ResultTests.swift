@@ -1,5 +1,5 @@
 import XCTest
-@testable import Result
+@testable import CELLULAR
 
 class ResultTests: XCTestCase {
 

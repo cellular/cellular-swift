@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "9999"
+   LastUpgradeVersion = "1000"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,51 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CELLULAR::Locking"
-               BuildableName = "Locking.framework"
-               BlueprintName = "Locking"
-               ReferencedContainer = "container:CELLULAR.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CELLULAR::Codable"
-               BuildableName = "Codable.framework"
-               BlueprintName = "Codable"
-               ReferencedContainer = "container:CELLULAR.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CELLULAR::Result"
-               BuildableName = "Result.framework"
-               BlueprintName = "Result"
-               ReferencedContainer = "container:CELLULAR.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CELLULAR::Storyboard"
-               BuildableName = "Storyboard.framework"
-               BlueprintName = "Storyboard"
+               BlueprintIdentifier = "1510E81A20ED40F300EEB5BD"
+               BuildableName = "CELLULAR.framework"
+               BlueprintName = "CELLULAR macOS"
                ReferencedContainer = "container:CELLULAR.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -74,13 +32,22 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CELLULAR::UnitTests"
-               BuildableName = "UnitTests.xctest"
-               BlueprintName = "UnitTests"
+               BlueprintIdentifier = "1510E7C020ED3FB000EEB5BD"
+               BuildableName = "CELLULARTests.xctest"
+               BlueprintName = "CELLULARTests"
                ReferencedContainer = "container:CELLULAR.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1510E81A20ED40F300EEB5BD"
+            BuildableName = "CELLULAR.framework"
+            BlueprintName = "CELLULAR macOS"
+            ReferencedContainer = "container:CELLULAR.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -97,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CELLULAR::Locking"
-            BuildableName = "Locking.framework"
-            BlueprintName = "Locking"
+            BlueprintIdentifier = "1510E81A20ED40F300EEB5BD"
+            BuildableName = "CELLULAR.framework"
+            BlueprintName = "CELLULAR macOS"
             ReferencedContainer = "container:CELLULAR.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -112,6 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1510E81A20ED40F300EEB5BD"
+            BuildableName = "CELLULAR.framework"
+            BlueprintName = "CELLULAR macOS"
+            ReferencedContainer = "container:CELLULAR.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -1,5 +1,5 @@
 import XCTest
-@testable import Codable
+@testable import CELLULAR
 
 class CodableTests: XCTestCase {
 

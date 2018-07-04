@@ -1,5 +1,5 @@
 import XCTest
-@testable import Storyboard
+@testable import CELLULAR
 
 class StoryboardTests: XCTestCase {
 
