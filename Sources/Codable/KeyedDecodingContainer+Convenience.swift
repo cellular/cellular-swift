@@ -1,8 +1,8 @@
 import Foundation
 
-extension KeyedDecodingContainer {
+// MARK: - Failable Sequences
 
-    // MARK: Failable Sequences
+extension KeyedDecodingContainer {
 
     /// Decodes a sequence of a given type.
     ///
@@ -33,8 +33,11 @@ extension KeyedDecodingContainer {
         let optionals = try decodeIfPresent([T?].self, forKey: key)
         return optionals?.compactMap { $0 } // Flatten-out any failed object
     }
+}
 
-    // MARK: Foundation
+// MARK: - Foundation
+
+extension KeyedDecodingContainer {
 
     /// Decodes a value of the given type for the given key.
     ///
