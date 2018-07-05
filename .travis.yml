@@ -16,11 +16,8 @@ after_success: bash <(curl -s https://codecov.io/bash)
 
 # Notifications
 notifications:
+    slack: cellular:SnbeoVtpHMYrmikTbYz6OGdb
     email: false
-    slack: #ios-informiert
-        on_success: always
-        rooms:
-          - cellular:SnbeoVtpHMYrmikTbYz6OGdb
 
 # Build Matrix
 matrix:
@@ -29,29 +26,29 @@ matrix:
         - os: linux
           env: SWIFT_VERSION=swift-4.1
 
-        # # macOS
-        # - os: osx
-        #   env: DESTINATION="arch=x86_64"  SCHEME="CELLULAR macOS" RUN_TESTS="NO"  POD_LINT="YES"
+        # macOS
+        - os: osx
+          env: DESTINATION="arch=x86_64"  SCHEME="CELLULAR macOS" RUN_TESTS="NO"  POD_LINT="YES"
 
-        # # iOS
-        # - os: osx
-        #   env: DESTINATION="OS=11.3,name=iPhone X"        SCHEME="CELLULAR iOS" RUN_TESTS="YES" POD_LINT="NO"
-        # - os: osx
-        #   env: DESTINATION="OS=10.3.1,name=iPhone 7 Plus" SCHEME="CELLULAR iOS" RUN_TESTS="YES" POD_LINT="NO"
-        # - os: osx
-        #   env: DESTINATION="OS=9.3,name=iPhone 6"         SCHEME="CELLULAR iOS" RUN_TESTS="YES" POD_LINT="NO"
-        # # watchOS
-        # - os: osx
-        #   env: DESTINATION="OS=4.3,name=Apple Watch - 42mm" SCHEME="CELLULAR watchOS" RUN_TESTS="NO" POD_LINT="NO"
-        # - os: osx
-        #   env: DESTINATION="OS=3.2,name=Apple Watch - 42mm" SCHEME="CELLULAR watchOS" RUN_TESTS="NO" POD_LINT="NO"
-        # - os: osx
-        #   env: DESTINATION="OS=2.2,name=Apple Watch - 42mm" SCHEME="CELLULAR watchOS" RUN_TESTS="NO" POD_LINT="NO"
-        # # tvOS
-        # - os: osx
-        #   env: DESTINATION="OS=11.3,name=Apple TV 4K"    SCHEME="CELLULAR tvOS" RUN_TESTS="YES" POD_LINT="NO"
-        # - os: osx
-        #   env: DESTINATION="OS=10.2,name=Apple TV 1080p" SCHEME="CELLULAR tvOS" RUN_TESTS="YES" POD_LINT="NO"
-        # - os: osx
-        # env: DESTINATION="OS=9.2,name=Apple TV 1080p"  SCHEME="CELLULAR tvOS" RUN_TESTS="YES" POD_LINT="NO"
+        # iOS
+        - os: osx
+          env: DESTINATION="OS=11.3,name=iPhone X"        SCHEME="CELLULAR iOS" RUN_TESTS="YES" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=10.3.1,name=iPhone 7 Plus" SCHEME="CELLULAR iOS" RUN_TESTS="YES" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=9.3,name=iPhone 6"         SCHEME="CELLULAR iOS" RUN_TESTS="YES" POD_LINT="NO"
+        # watchOS
+        - os: osx
+          env: DESTINATION="OS=4.3,name=Apple Watch - 42mm" SCHEME="CELLULAR watchOS" RUN_TESTS="NO" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=3.2,name=Apple Watch - 42mm" SCHEME="CELLULAR watchOS" RUN_TESTS="NO" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=2.2,name=Apple Watch - 42mm" SCHEME="CELLULAR watchOS" RUN_TESTS="NO" POD_LINT="NO"
+        # tvOS
+        - os: osx
+          env: DESTINATION="OS=11.3,name=Apple TV 4K"    SCHEME="CELLULAR tvOS" RUN_TESTS="YES" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=10.2,name=Apple TV 1080p" SCHEME="CELLULAR tvOS" RUN_TESTS="YES" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=9.2,name=Apple TV 1080p"  SCHEME="CELLULAR tvOS" RUN_TESTS="YES" POD_LINT="NO"
 
