@@ -18,9 +18,9 @@ after_success: bash <(curl -s https://codecov.io/bash)
 notifications:
     email: false
     slack:
+        on_success: always
         rooms:
-            - cellular:SnbeoVtpHMYrmikTbYz6OGdb
-        on_success: change
+          - cellular:SnbeoVtpHMYrmikTbYz6OGdb#ios-informiert
 
 # Build Matrix
 matrix:
