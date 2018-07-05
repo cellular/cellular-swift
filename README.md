@@ -7,7 +7,7 @@
 [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20macOS%20%7C%20linux-lightgrey.svg)](https://img.shields.io/badge/platform-iOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20macOS%20%7C%20linux-lightgrey.svg)
 [![Twitter](https://img.shields.io/badge/twitter-@CELLULAR-blue.svg?style=flat)](https://twitter.com/cellular)
 
-A collection of Swift utilities that we share across swift-based projects at CELLULAR. It has no external dependency.
+A collection of Swift utilities that we share across swift-based projects at CELLULAR. It is a standalone module with no external dependencies.
 
 - [Features](#features)
 - [Requirements](#requirements)
@@ -21,9 +21,11 @@ There are several extensions on `KeyedDecodingContainer`. Most of which are heav
 
 ###### THE PLANET
 
-Throughout the `Codable` examples, the following struct is used: 
+Throughout the `Codable` examples, the following struct is used:
 
 ```swift
+import CELLULAR
+
 public struct Planet: Codable {
 
     public var discoverer: String
@@ -35,17 +37,16 @@ public struct Planet: Codable {
     public var distanceFromSun: Float // 10^6 km
 
     public var surfacePressure: Double? // bars
-    
-    public var atmosphericComposition: [String]    
-}
+
+    public var atmosphericComposition: [String]
 ```
 
 #### 1. Allows `Foundation` types to be inferred on value assignment
 
 ```swift
-public init(from decoder: Decoder) throws {
+    public init(from decoder: Decoder) throws {
 	let container = try decoder.container(keyedBy: CodingKeys.self)
-	
+
 	discoverer = try container.decode(forKey: .discoverer) // String
 	hasRingSystem = try container.decode(forKey: .hasRingSystem) // Bool
 	numberOfMoons = try container.decode(forKey: .numberOfMoons) // Int
@@ -62,6 +63,7 @@ public init(from decoder: Decoder) throws {
 
 ```swift
 	atmosphericComposition = try container.decode(forKey: .atmosphericComposition, allowInvalidElements: true) ?? []
+    }
 }
 ```
 
@@ -71,7 +73,7 @@ TODO
 ## Result
 
 A type that represents either a success value or failure value, both of which may be of different types.
-This is similar to Swift’s native `Optional` type, yet, instead of `nil` as error indicating, it allows none-nil failure returns with additional information. 
+This is similar to Swift’s native `Optional` type, yet, instead of `nil` as error indicating, it allows none-nil failure returns with additional information.
 
 ```swift
 import CELLULAR
@@ -91,7 +93,7 @@ TODO
 
 ## Installation
 
-### [Swift Package Manager](https://swift.org/package-manager/) 
+### [Swift Package Manager](https://swift.org/package-manager/)
 
 Once you have your Swift package set up, adding CELLULAR as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
 
