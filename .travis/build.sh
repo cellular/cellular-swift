@@ -8,6 +8,7 @@ if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
 else # iOS | watchOS | tvOS | macOS
 
     # Prepare
+    set -e; # Fail on first error
     xcodebuild -version;
     xcodebuild -showsdks;
 
