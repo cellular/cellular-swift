@@ -21,7 +21,7 @@ There are several extensions on `KeyedDecodingContainer`. Most of which are heav
 
 ###### THE PLANET
 
-Throughout the `Codable` examples, the following struct will be used: 
+Throughout the `Codable` examples, the following struct is used: 
 
 ```swift
 public struct Planet: Codable {
@@ -69,7 +69,18 @@ public init(from decoder: Decoder) throws {
 TODO
 
 ## Result
-TODO
+
+A type that represents either a success value or failure value, both of which may be of different types.
+This is similar to Swift’s native `Optional` type, yet, instead of `nil` as error indicating, it allows none-nil failure returns with additional information. 
+
+```swift
+import CELLULAR
+
+public enum Result<Success, Failure> {
+    case success(Success)
+    case failure(Failure)
+}
+```
 
 ## Storyboard
 TODO
