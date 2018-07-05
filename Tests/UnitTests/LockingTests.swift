@@ -72,7 +72,7 @@ class LockingTests: XCTestCase {
             }
         }
 
-        waitForExpectations(timeout: 3) { error in
+        waitForExpectations(timeout: 5) { error in
             if let error = error { XCTFail(error.localizedDescription) }
         }
     }
