@@ -18,7 +18,8 @@ A collection of Swift utilities that we share across swift-based projects at CEL
 
 ## Codable
 
-There are several extensions on `KeyedDecodingContainer`. Most of which are heavily inspired by [Unbox](https://github.com/JohnSundell/Unbox).
+There are several extensions on `KeyedDecodingContainer`.
+Most of which are heavily inspired by [Unbox](https://github.com/JohnSundell/Unbox).
 
 ###### THE PLANET
 
