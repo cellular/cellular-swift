@@ -16,11 +16,11 @@ after_success: bash <(curl -s https://codecov.io/bash)
 
 # Notifications
 notifications:
-  email: false
-  slack:
-    rooms: #ios-informiert
-      secure: xJ6An1DXP2XnLlxv87Z+SQmy1NTmkj2Ptjd1hwyX7LJARwxSHnvp4Ho/IkB4sWFQrsPGIrMlFYM+6BkidEnmcJ9EGNww3UVy8Fcr2cs4fn7SU3mJVttpIn30HC+kYA6nzIShwm0EWAOB2O1fqC8eWvy+zIcnBn/U67VpZpRJcP/pDjkRxaBIGIhyc7W5PYZGitG2oXJieDBDX2wnHTlrQQdrv9XJji+Y5Q/j0l3udvQnqGDBdR/Zvvufo3BO0bIKZMCUtTtVdfgJW++ygKl9Vsv9OvFMf86HA1JkvQTnfGXDXuBgT2mdXE30mew0KDRES3EC+FUqfANntEOSYwPzx+hRGNNwkFwQHx6wM1YKFZLrQjbLNqDvaz6WZ+i8gOT2tVJUIj4v5DQqan1oOT7vzCPTU+O/7TD0NJGuKU5KqHJy156gAtF10CJGpNZWteaGCMRyBCucnlPur7iTFWh+244aqO3+W+fhdB1VPWVzyFYcvFxulvqg7k7GI8Fa112ku9bQkWLdGx++Itk2atAJEYsh09mWgoaPo1U8JyjNG3KLNirggcd1aDgZ0bY88VBo7qJQJgdEyZuAtCnR5eESg7HruhhZ0lxDLv3jb6xMBflQeULm1GpYnBXk3fZQ4E7E+XugHgw7XCjzbq63g6dcTFLPh16gQ31L7aNnEubfQzc=
-    on_success: change
+    email: false
+    slack: #ios-informiert
+        on_success: always
+        rooms:
+            secure: "ZuEL/0r4Mko5whC0y4UPK4yvC8ULpr72Xwj4sMhilM8a+Xn19pcSPOlJaHoXVVBanioV8jOap91qMgGGdSp8fcMRkMrYQ9rjre5NV5NsM+wRmfaVw1y07UIuTmvT3oPoDUgoeFmDk2JzyQOUV3KbECFwv17cyZqd2lIC/HIZLrgCnfn/EmzhU1gwaqD00EC+FTKWl/UM1UktMoJ2EaPqdEDPkaqE7i8Kgajpbks+0l6eu9GKE226c3Q52gQT7uh5aOoS18FOH+jgD/8nFwxLwZHRsT9xEYpi5HQ2RX86PLHmrCM55IgmefvdyBiEkc2pg/00BEt+87sfpsWAbm8j87DQwhHXcnVgdyGu2JDdI3zAp+YkyfIJzS/FtOCAABMBJUWCfYsTDjy1/yN02/hmd/vT8UZMJZGwObILG6MtQtIDzZh7oxrBCu0AS1y3nSY9GseQXDHWARdbat5Spl0IYRYOFDc5PVj654E0+0xs8IFL60gYSWkC32LUJFM9jJE6LiHjR5+3gwtdkDm4taS3AfY5vKyM491R6NB65Q5McjvS4HVAEX0f5q/VL89OJJ6Hs7mGk/4VlUEgNMk5/yZ+VojAUbLuE72R2WmNyoT9oGT9xFyRLYzv6CRE5hFunGc1YZbrl/+7t0Qu9CTZyjELDhtYmU2VIwuTXg/cxtI0mXs="
 
 # Build Matrix
 matrix:
