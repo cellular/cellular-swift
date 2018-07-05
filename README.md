@@ -2,10 +2,10 @@
 ![CELLULAR](https://www.cellular.de/cellular-logo.png)
 
 [![Build Status](https://travis-ci.org/cellular/cellular-ios.svg?branch=master)](https://travis-ci.org/cellular/cellular-ios)
-[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Swift Version](https://img.shields.io/badge/swift%20version-4.1-orange.svg)](https://img.shields.io/badge/swift%20version-4.1-orange.svg)
-[![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20macOS%20%7C%20linux-lightgrey.svg)](https://img.shields.io/badge/platform-iOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20macOS%20%7C%20linux-lightgrey.svg)
-[![Twitter](https://img.shields.io/badge/twitter-@CELLULAR-blue.svg?style=flat)](https://twitter.com/cellular)
+[![Codecov](https://codecov.io/gh/cellular/cellular-ios/branch/master/graph/badge.svg)](https://codecov.io/gh/cellular/cellular-ios)
+[![Carthage Compatible](https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Swift Version](https://img.shields.io/badge/swift-4.1-orange.svg)](https://swift.org)
+![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20macOS%20%7C%20linux-lightgrey.svg)
 
 A collection of Swift utilities that we share across swift-based projects at CELLULAR. It is a standalone module with no external dependencies.
 
