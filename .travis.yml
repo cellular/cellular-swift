@@ -20,7 +20,7 @@ notifications:
     slack: #ios-informiert
         on_success: always
         rooms:
-            secure: ZuEL/0r4Mko5whC0y4UPK4yvC8ULpr72Xwj4sMhilM8a+Xn19pcSPOlJaHoXVVBanioV8jOap91qMgGGdSp8fcMRkMrYQ9rjre5NV5NsM+wRmfaVw1y07UIuTmvT3oPoDUgoeFmDk2JzyQOUV3KbECFwv17cyZqd2lIC/HIZLrgCnfn/EmzhU1gwaqD00EC+FTKWl/UM1UktMoJ2EaPqdEDPkaqE7i8Kgajpbks+0l6eu9GKE226c3Q52gQT7uh5aOoS18FOH+jgD/8nFwxLwZHRsT9xEYpi5HQ2RX86PLHmrCM55IgmefvdyBiEkc2pg/00BEt+87sfpsWAbm8j87DQwhHXcnVgdyGu2JDdI3zAp+YkyfIJzS/FtOCAABMBJUWCfYsTDjy1/yN02/hmd/vT8UZMJZGwObILG6MtQtIDzZh7oxrBCu0AS1y3nSY9GseQXDHWARdbat5Spl0IYRYOFDc5PVj654E0+0xs8IFL60gYSWkC32LUJFM9jJE6LiHjR5+3gwtdkDm4taS3AfY5vKyM491R6NB65Q5McjvS4HVAEX0f5q/VL89OJJ6Hs7mGk/4VlUEgNMk5/yZ+VojAUbLuE72R2WmNyoT9oGT9xFyRLYzv6CRE5hFunGc1YZbrl/+7t0Qu9CTZyjELDhtYmU2VIwuTXg/cxtI0mXs=
+            secure: "qZ9eD+6ryxfEjMxGrkq9kvw8NcjL4XocLiovyq3YgZz77heLs8LzXOEXYyFUinsNCAk0Jm0EudiA90rKxr5AnVQj4BPLVUjQjESi432iazuUsSYLoioMNxIV9lKyVbzwKuWveI4o/dgJ00uZ7k+DqHb1XvFogPH4wXvow9xL1d4EsdVVoKN65A7RsEgCxaqk45XHBAJmjyVa88IXFgzqg0OeXPoxdK0MCBxkLnCWWJaQ4mRliqOhPIOKEKr3pSB3gQZ0L+xKYYVhzkUPQyw88aZM+3Y6JP+dQJIsgXYQHR7Z7chm29uFutoLWph3mYrbhwOxzpWTZXxuOENztgf4OBJv1ALJqZ5JbJvkTejHYOG5OhPS8U4BproDGBM9Jt+IDTPaTN8mPcSg9It6NK/40iznFwTSlgLDfJf+NWQk6M92QllXzBIlhptiTKrCgexbUXQ83ZWG+LfVONTMtfYmHWTfDgGaPIfOeMTiLl9kpr3ZPfh8NBhhY22+j07xejq3DTRwf3CDV5ThvBz9ydQo63JdHwg0n1agzQgR7gE6wMkjMVHNmRvARLYCq3pLS/ZxP93lYXwkT9afCidcU5YOxle9l/zbfO5XDsl8kJh6MAbkEG6NvQviwsVzx+ELFImrsB0tayP+YjGkp6V1wfRVlmwSlYRxECB8jAj4LX+PYsk="
 
 # Build Matrix
 matrix:
@@ -29,29 +29,29 @@ matrix:
         - os: linux
           env: SWIFT_VERSION=swift-4.1
 
-        # # macOS
-        # - os: osx
-        #   env: DESTINATION="arch=x86_64"  SCHEME="CELLULAR macOS" RUN_TESTS="NO"  POD_LINT="YES"
+        # macOS
+        - os: osx
+          env: DESTINATION="arch=x86_64"  SCHEME="CELLULAR macOS" RUN_TESTS="NO"  POD_LINT="YES"
 
-        # # iOS
-        # - os: osx
-        #   env: DESTINATION="OS=11.3,name=iPhone X"        SCHEME="CELLULAR iOS" RUN_TESTS="YES" POD_LINT="NO"
-        # - os: osx
-        #   env: DESTINATION="OS=10.3.1,name=iPhone 7 Plus" SCHEME="CELLULAR iOS" RUN_TESTS="YES" POD_LINT="NO"
-        # - os: osx
-        #   env: DESTINATION="OS=9.3,name=iPhone 6"         SCHEME="CELLULAR iOS" RUN_TESTS="YES" POD_LINT="NO"
-        # # watchOS
-        # - os: osx
-        #   env: DESTINATION="OS=4.3,name=Apple Watch - 42mm" SCHEME="CELLULAR watchOS" RUN_TESTS="NO" POD_LINT="NO"
-        # - os: osx
-        #   env: DESTINATION="OS=3.2,name=Apple Watch - 42mm" SCHEME="CELLULAR watchOS" RUN_TESTS="NO" POD_LINT="NO"
-        # - os: osx
-        #   env: DESTINATION="OS=2.2,name=Apple Watch - 42mm" SCHEME="CELLULAR watchOS" RUN_TESTS="NO" POD_LINT="NO"
-        # # tvOS
-        # - os: osx
-        #   env: DESTINATION="OS=11.3,name=Apple TV 4K"    SCHEME="CELLULAR tvOS" RUN_TESTS="YES" POD_LINT="NO"
-        # - os: osx
-        #   env: DESTINATION="OS=10.2,name=Apple TV 1080p" SCHEME="CELLULAR tvOS" RUN_TESTS="YES" POD_LINT="NO"
-        # - os: osx
-        #   env: DESTINATION="OS=9.2,name=Apple TV 1080p"  SCHEME="CELLULAR tvOS" RUN_TESTS="YES" POD_LINT="NO"
+        # iOS
+        - os: osx
+          env: DESTINATION="OS=11.3,name=iPhone X"        SCHEME="CELLULAR iOS" RUN_TESTS="YES" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=10.3.1,name=iPhone 7 Plus" SCHEME="CELLULAR iOS" RUN_TESTS="YES" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=9.3,name=iPhone 6"         SCHEME="CELLULAR iOS" RUN_TESTS="YES" POD_LINT="NO"
+        # watchOS
+        - os: osx
+          env: DESTINATION="OS=4.3,name=Apple Watch - 42mm" SCHEME="CELLULAR watchOS" RUN_TESTS="NO" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=3.2,name=Apple Watch - 42mm" SCHEME="CELLULAR watchOS" RUN_TESTS="NO" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=2.2,name=Apple Watch - 42mm" SCHEME="CELLULAR watchOS" RUN_TESTS="NO" POD_LINT="NO"
+        # tvOS
+        - os: osx
+          env: DESTINATION="OS=11.3,name=Apple TV 4K"    SCHEME="CELLULAR tvOS" RUN_TESTS="YES" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=10.2,name=Apple TV 1080p" SCHEME="CELLULAR tvOS" RUN_TESTS="YES" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=9.2,name=Apple TV 1080p"  SCHEME="CELLULAR tvOS" RUN_TESTS="YES" POD_LINT="NO"
 
