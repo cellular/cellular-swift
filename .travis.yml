@@ -18,7 +18,7 @@ after_success: bash <(curl -s https://codecov.io/bash)
 notifications:
     email: false
     slack:
-        on_success: always
+        on_success: change
         rooms:
           - cellular:SnbeoVtpHMYrmikTbYz6OGdb#ios-informiert
 
