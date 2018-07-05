@@ -30,7 +30,7 @@ matrix:
 
         # macOS
         - os: osx
-          env: DESTINATION="arch=x86_64"  SCHEME="CELLULAR macOS" RUN_TESTS="NO"  POD_LINT="YES"
+          env: DESTINATION="arch=x86_64"  SCHEME="CELLULAR macOS" RUN_TESTS="YES"  POD_LINT="YES"
 
         # iOS
         - os: osx

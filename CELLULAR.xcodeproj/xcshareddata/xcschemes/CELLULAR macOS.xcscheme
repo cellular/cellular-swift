@@ -20,22 +20,35 @@
                ReferencedContainer = "container:CELLULAR.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "157C5BC520EE4B60001E912A"
+               BuildableName = "CELLULARTests macOS.xctest"
+               BlueprintName = "CELLULARTests macOS"
+               ReferencedContainer = "container:CELLULAR.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1510E7C020ED3FB000EEB5BD"
-               BuildableName = "CELLULARTests.xctest"
-               BlueprintName = "CELLULARTests"
+               BlueprintIdentifier = "157C5BC520EE4B60001E912A"
+               BuildableName = "CELLULARTests macOS.xctest"
+               BlueprintName = "CELLULARTests macOS"
                ReferencedContainer = "container:CELLULAR.xcodeproj">
             </BuildableReference>
          </TestableReference>
