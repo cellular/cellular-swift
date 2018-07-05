@@ -1,9 +1,5 @@
 import XCTest
-#if os(Linux)
-@testable import Storyboard
-#else
 @testable import CELLULAR
-#endif
 
 class StoryboardTests: XCTestCase {
 

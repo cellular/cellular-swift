@@ -1,9 +1,5 @@
 import XCTest
-#if os(Linux)
-@testable import Locking
-#else
 @testable import CELLULAR
-#endif
 
 class LockingTests: XCTestCase {
 

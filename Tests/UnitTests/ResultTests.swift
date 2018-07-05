@@ -1,9 +1,5 @@
 import XCTest
-#if os(Linux)
-@testable import Result
-#else
 @testable import CELLULAR
-#endif
 
 class ResultTests: XCTestCase {
 

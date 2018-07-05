@@ -1,9 +1,5 @@
 import XCTest
-#if os(Linux)
-@testable import Codable
-#else
 @testable import CELLULAR
-#endif
 
 class CodableTests: XCTestCase {
 
