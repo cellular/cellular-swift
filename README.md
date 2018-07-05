@@ -1,8 +1,8 @@
 
 ![CELLULAR](https://www.cellular.de/cellular-logo.png)
 
-[![Build Status](https://travis-ci.org/cellular/cellular-ios.svg?branch=master)](https://travis-ci.org/cellular/cellular-ios)
-[![Codecov](https://codecov.io/gh/cellular/cellular-ios/branch/master/graph/badge.svg)](https://codecov.io/gh/cellular/cellular-ios)
+[![Build Status](https://travis-ci.org/cellular/cellular-swift.svg?branch=master)](https://travis-ci.org/cellular/cellular-swift)
+[![Codecov](https://codecov.io/gh/cellular/cellular-swift/branch/master/graph/badge.svg)](https://codecov.io/gh/cellular/cellular-swift)
 [![Carthage Compatible](https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift Version](https://img.shields.io/badge/swift-4.1-orange.svg)](https://swift.org)
 ![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20macOS%20%7C%20linux-lightgrey.svg)
@@ -99,10 +99,10 @@ Once you have your Swift package set up, adding CELLULAR as a dependency is as e
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/cellular/cellular-ios.git", from: "1.0.0")
+    .package(url: "https://github.com/cellular/cellular-swift.git", from: "1.0.0")
 ]
 ```
 
 ## License
 
-CELLULAR is released under the MIT license. [See LICENSE](https://github.com/cellular/cellular-ios/blob/master/LICENSE) for details.
+CELLULAR is released under the MIT license. [See LICENSE](https://github.com/cellular/cellular-swift/blob/master/LICENSE) for details.
