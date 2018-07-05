@@ -1,10 +1,14 @@
 import XCTest
+#if os(Linux)
+@testable import Codable
+#else
 @testable import CELLULAR
+#endif
 
 class CodableTests: XCTestCase {
 
     static var allTests = [
-        ("testExample", testExample),
+        ("testExample", testExample)
     ]
 
     func testExample() {
@@ -14,7 +18,6 @@ class CodableTests: XCTestCase {
         XCTAssertEqual("Hello, World!", "Hello, World!")
     }
 }
-
 
 public struct Planet: Codable {
 

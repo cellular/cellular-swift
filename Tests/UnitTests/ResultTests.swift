@@ -1,13 +1,11 @@
 import XCTest
+#if os(Linux)
+@testable import Result
+#else
 @testable import CELLULAR
+#endif
 
 class ResultTests: XCTestCase {
-
-    static var allTests = [
-        ("testSuccess", testSuccess),
-        ("testFailure", testFailure),
-        ("testEquatable", testEquatable)
-    ]
 
     func testSuccess() {
         let successValue = "success"
@@ -33,33 +31,77 @@ class ResultTests: XCTestCase {
         }
     }
 
-    func testEquatable() {
-
+    func testEquatableSuccess() {
         let valueOne = "value"
-        var valueTwo = valueOne
-        var resultOne: Result<String, String> = .success(valueOne)
-        var resultTwo: Result<String, String> = .success(valueTwo)
-        XCTAssert(resultOne == resultTwo)
+        let valueTwo = valueOne
+        let resultOne: Result<String, String> = .success(valueOne)
+        let resultTwo: Result<String, String> = .success(valueTwo)
+        XCTAssertTrue(resultOne == resultTwo)
+    }
 
-        resultOne = .failure(valueOne)
-        resultTwo = .failure(valueTwo)
-        XCTAssert(resultOne == resultTwo)
-
-        resultOne = .success(valueOne)
-        resultTwo = .failure(valueTwo)
+    func testNoneEquatableSuccess() {
+        let valueOne = "value"
+        let valueTwo = "something different"
+        let resultOne: Result<String, String> = .success(valueOne)
+        let resultTwo: Result<String, String> = .success(valueTwo)
         XCTAssertFalse(resultOne == resultTwo)
+    }
 
-        resultOne = .failure(valueOne)
-        resultTwo = .success(valueTwo)
+    func testEquatableFailure() {
+        let valueOne = "value"
+        let valueTwo = valueOne
+        let resultOne: Result<String, String> = .failure(valueOne)
+        let resultTwo: Result<String, String> = .failure(valueTwo)
+        XCTAssertTrue(resultOne == resultTwo)
+    }
+
+    func testNoneEquatableFailure() {
+        let valueOne = "value"
+        let valueTwo = "something different"
+        let resultOne: Result<String, String> = .failure(valueOne)
+        let resultTwo: Result<String, String> = .failure(valueTwo)
         XCTAssertFalse(resultOne == resultTwo)
+    }
 
-        valueTwo = "something different"
-        resultOne = .success(valueOne)
-        resultTwo = .success(valueTwo)
+    func testUnequalCaseWithEqualModel() {
+
+        // When models are equal, but cases do not match ...
+        let valueOne = "value"
+        let valueTwo = valueOne
+        let resultOne: Result<String, String> = .success(valueOne) // SUCCESS
+        let resultTwo: Result<String, String> = .failure(valueTwo) // FAILURE
+
+        // ... they must not be equal
         XCTAssertFalse(resultOne == resultTwo)
+    }
 
-        resultOne = .failure(valueOne)
-        resultTwo = .failure(valueTwo)
+    func testUnequalCaseWithEqualModelViceVersa() {
+
+        // When models are equal, but cases do not match ...
+        let valueOne = "value"
+        let valueTwo = valueOne
+        let resultOne: Result<String, String> = .failure(valueOne) // FAILURE
+        let resultTwo: Result<String, String> = .success(valueTwo) // SUCCESS
+
+        // ... they must not be equal
         XCTAssertFalse(resultOne == resultTwo)
     }
 }
+
+// MARK: - Linux
+
+#if os(Linux)
+extension ResultTests {
+
+    public static var allTests = [
+        ("testSuccess", testSuccess),
+        ("testFailure", testFailure),
+        ("testEquatable", testEquatableSuccess),
+        ("testEquatableFailure", testEquatableFailure),
+        ("testNoneEquatableSuccess", testNoneEquatableSuccess),
+        ("testNoneEquatableFailure", testNoneEquatableFailure),
+        ("testUnequalCaseWithEqualModel", testUnequalCaseWithEqualModel),
+        ("testUnequalCaseWithEqualModelViceVersa", testUnequalCaseWithEqualModelViceVersa)
+    ]
+}
+#endif

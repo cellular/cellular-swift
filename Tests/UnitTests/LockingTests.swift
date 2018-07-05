@@ -1,12 +1,11 @@
 import XCTest
+#if os(Linux)
+@testable import Locking
+#else
 @testable import CELLULAR
+#endif
 
 class LockingTests: XCTestCase {
-
-    static var allTests = [
-        ("testDispatchLock", testDispatchLock),
-        ("testFoundationLock", testFoundationLock)
-    ]
 
     // Will test blocking mechanism of DispatchLock
     func testDispatchLock() {
@@ -127,7 +126,7 @@ class LockingTests: XCTestCase {
             }
         }
 
-        let lastReadExpectation = expectation(description: "last.read.expectation") 
+        let lastReadExpectation = expectation(description: "last.read.expectation")
         taskQueue.async {
             protected.read { value in
                 // Should only start if all prior tasks are completed
@@ -142,3 +141,15 @@ class LockingTests: XCTestCase {
         }
     }
 }
+
+// MARK: - Linux
+
+#if os(Linux)
+extension LockingTests {
+
+    public static var allTests = [
+        ("testDispatchLock", testDispatchLock),
+        ("testFoundationLock", testFoundationLock)
+    ]
+}
+#endif

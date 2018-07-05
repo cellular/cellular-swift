@@ -26,9 +26,9 @@ extension Result: CustomStringConvertible, CustomDebugStringConvertible {
     public var description: String {
         switch self {
         case let .success(model):
-            return "Success result - model:\n\(model)"
-        case let .failure(message):
-            return "Failure result - error:\n\(message)"
+            return "Success result - model:\n\(String(describing: model))"
+        case let .failure(error):
+            return "Failure result - error:\n\(String(describing: error))"
         }
     }
 
@@ -36,9 +36,9 @@ extension Result: CustomStringConvertible, CustomDebugStringConvertible {
     public var debugDescription: String {
         switch self {
         case let .success(model):
-            return "Success result - model:\n\(model)"
-        case let .failure(message):
-            return "Failure result - error:\n\(message)"
+            return "Success result - model:\n\(String(reflecting: model))"
+        case let .failure(error):
+            return "Failure result - error:\n\(String(reflecting: error))"
         }
     }
 }
