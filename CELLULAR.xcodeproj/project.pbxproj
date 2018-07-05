@@ -26,6 +26,10 @@
 		157C5BC020EE4B1A001E912A /* StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D520ED402900EEB5BD /* StoryboardTests.swift */; };
 		157C5BC120EE4B1A001E912A /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D620ED402900EEB5BD /* CodableTests.swift */; };
 		157C5BCB20EE4B60001E912A /* CELLULAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1510E81B20ED40F300EEB5BD /* CELLULAR.framework */; };
+		157C5BD920EE6D84001E912A /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D320ED402900EEB5BD /* ResultTests.swift */; };
+		157C5BDA20EE6D84001E912A /* LockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D420ED402900EEB5BD /* LockingTests.swift */; };
+		157C5BDB20EE6D84001E912A /* StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D520ED402900EEB5BD /* StoryboardTests.swift */; };
+		157C5BDC20EE6D84001E912A /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D620ED402900EEB5BD /* CodableTests.swift */; };
 		15C5433720ED4315007139D3 /* CELLULAR.h in Headers */ = {isa = PBXBuildFile; fileRef = 1510E7BB20ED3FB000EEB5BD /* CELLULAR.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15C5433820ED431F007139D3 /* CELLULAR.h in Headers */ = {isa = PBXBuildFile; fileRef = 1510E7BB20ED3FB000EEB5BD /* CELLULAR.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15C5433920ED4327007139D3 /* CELLULAR.h in Headers */ = {isa = PBXBuildFile; fileRef = 1510E7BB20ED3FB000EEB5BD /* CELLULAR.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -602,6 +606,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157C5BDB20EE6D84001E912A /* StoryboardTests.swift in Sources */,
+				157C5BD920EE6D84001E912A /* ResultTests.swift in Sources */,
+				157C5BDC20EE6D84001E912A /* CodableTests.swift in Sources */,
+				157C5BDA20EE6D84001E912A /* LockingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
