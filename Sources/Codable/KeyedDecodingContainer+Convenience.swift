@@ -1,7 +1,7 @@
 import Foundation
 
 // MARK: - Failable Sequences
-asd
+
 extension KeyedDecodingContainer {
 
     /// Decodes a sequence of a given type.
