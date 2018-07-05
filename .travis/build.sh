@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e; # Fail on first error
 
 if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
 
@@ -8,7 +9,7 @@ if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
 else # iOS | watchOS | tvOS | macOS
 
     # Prepare
-    set -e; # Fail on first error
+    set -o pipefail; # xcpretty
     xcodebuild -version;
     xcodebuild -showsdks;
 
