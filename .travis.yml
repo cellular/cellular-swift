@@ -14,12 +14,6 @@ script: ./.travis/build.sh
 # Update Code Coverage
 after_success: bash <(curl -s https://codecov.io/bash)
 
-notifications:
-    email: false
-    webhooks: #ios-informiert
-        urls: https://hooks.slack.com/services/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
-        on_success: change
-
 # Build Matrix
 matrix:
     include:
