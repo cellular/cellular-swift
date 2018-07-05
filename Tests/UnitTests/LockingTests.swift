@@ -150,7 +150,7 @@ class LockingTests: XCTestCase {
 extension LockingTests {
 
     public static var allTests = [
-        ("testDispatchLock", testDispatchLock),
+        // ("testDispatchLock", testDispatchLock),
         ("testFoundationLock", testFoundationLock)
     ]
 }
