@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-    spec.version       = '5.0.0'
+    spec.version       = '5.0'
     spec.swift_version = '4.2'
     spec.module_name   = 'CELLULAR'
     spec.name          = 'CELLULAR'
