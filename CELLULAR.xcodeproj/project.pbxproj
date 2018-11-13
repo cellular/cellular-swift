@@ -54,6 +54,10 @@
 		15C5434C20ED4347007139D3 /* DispatchLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DF20ED403A00EEB5BD /* DispatchLock.swift */; };
 		15C5434D20ED4347007139D3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7E320ED403A00EEB5BD /* Result.swift */; };
 		15C5434E20ED4347007139D3 /* StoryboardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7E120ED403A00EEB5BD /* StoryboardIdentifier.swift */; };
+		2825D6B4219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825D6B3219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift */; };
+		2825D6B5219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825D6B3219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift */; };
+		2825D6B6219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825D6B3219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift */; };
+		2825D6B7219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825D6B3219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +106,7 @@
 		1510E81B20ED40F300EEB5BD /* CELLULAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CELLULAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		157C5BB320EE4ABE001E912A /* CELLULARTests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CELLULARTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		157C5BC620EE4B60001E912A /* CELLULARTests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CELLULARTests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2825D6B3219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainer+FailableSequence.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				1510E7E520ED403A00EEB5BD /* KeyedDecodingContainer+Convenience.swift */,
+				2825D6B3219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift */,
 			);
 			path = Codable;
 			sourceTree = "<group>";
@@ -534,6 +540,7 @@
 				1510E7E820ED403A00EEB5BD /* Lock.swift in Sources */,
 				1510E7EA20ED403A00EEB5BD /* StoryboardIdentifier.swift in Sources */,
 				1510E7E920ED403A00EEB5BD /* DispatchLock.swift in Sources */,
+				2825D6B4219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift in Sources */,
 				1510E7E620ED403A00EEB5BD /* NSLock+Lock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,6 +566,7 @@
 				15C5433D20ED4335007139D3 /* Lock.swift in Sources */,
 				15C5433E20ED4335007139D3 /* DispatchLock.swift in Sources */,
 				15C5433F20ED4335007139D3 /* Result.swift in Sources */,
+				2825D6B5219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift in Sources */,
 				15C5434020ED4335007139D3 /* StoryboardIdentifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -573,6 +581,7 @@
 				15C5434420ED433F007139D3 /* Lock.swift in Sources */,
 				15C5434520ED433F007139D3 /* DispatchLock.swift in Sources */,
 				15C5434620ED433F007139D3 /* Result.swift in Sources */,
+				2825D6B6219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift in Sources */,
 				15C5434720ED433F007139D3 /* StoryboardIdentifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +596,7 @@
 				15C5434B20ED4347007139D3 /* Lock.swift in Sources */,
 				15C5434C20ED4347007139D3 /* DispatchLock.swift in Sources */,
 				15C5434D20ED4347007139D3 /* Result.swift in Sources */,
+				2825D6B7219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift in Sources */,
 				15C5434E20ED4347007139D3 /* StoryboardIdentifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -691,6 +701,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -747,6 +758,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -776,7 +788,6 @@
 				PRODUCT_NAME = CELLULAR;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -804,7 +815,6 @@
 				PRODUCT_NAME = CELLULAR;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -821,7 +831,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.ios.CELLULARTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -838,7 +847,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.ios.CELLULARTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -866,7 +874,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -895,7 +902,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -924,7 +930,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -953,7 +958,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -985,7 +989,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1015,7 +1018,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1033,7 +1035,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.ios.CELLULARTests-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.3;
 			};
@@ -1052,7 +1053,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.ios.CELLULARTests-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.3;
 			};
@@ -1075,7 +1075,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.ios.CELLULARTests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1095,7 +1094,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.ios.CELLULARTests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
