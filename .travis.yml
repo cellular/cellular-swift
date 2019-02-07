@@ -27,7 +27,7 @@ matrix:
     include:
         # Linux
         - os: linux
-          env: SWIFT_VERSION=swift-4.2
+          env: SWIFT_VERSION=5.0-DEVELOPMENT-SNAPSHOT-2019-01-22-a
 
         # macOS
         - os: osx

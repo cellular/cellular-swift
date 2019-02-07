@@ -5,7 +5,7 @@ import Foundation
 /// An identifier to be used as native representation of a string based storyboard value
 public protocol StoryboardIdentifier: RawRepresentable where Self.RawValue == String {}
 
-public extension UIStoryboard {
+extension UIStoryboard {
 
     /// Creates and returns a storyboard object for the specified storyboard resource file.
     ///
@@ -29,7 +29,7 @@ public extension UIStoryboard {
     }
 }
 
-public extension UIStoryboardSegue {
+extension UIStoryboardSegue {
 
     /// The identifier for the segue object of given concrete type.
     ///

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.version       = '5.0.1'
-    spec.swift_version = '4.2'
+    spec.swift_version = '5.0'
     spec.module_name   = 'CELLULAR'
     spec.name          = 'CELLULAR'
     spec.summary       = 'Collection of µ-frameworks and utility classes/extensions used in CELLULAR projects.'
