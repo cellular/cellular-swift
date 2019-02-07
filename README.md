@@ -61,24 +61,32 @@ public struct Planet: Codable {
 
 ```swift
     public init(from decoder: Decoder) throws {
-    let container = try decoder.container(keyedBy: CodingKeys.self)
+        let container = try decoder.container(keyedBy: CodingKeys.self)
 
-    discoverer = try container.decode(forKey: .discoverer) // String
-    hasRingSystem = try container.decode(forKey: .hasRingSystem) // Bool
-    numberOfMoons = try container.decode(forKey: .numberOfMoons) // Int
-    distanceFromSun = try container.decode(forKey: .distanceFromSun) // Float
+        discoverer = try container.decode(forKey: .discoverer)
+        // equals: discoverer = try decode(String.self, forKey: key)
+
+        hasRingSystem = try container.decode(forKey: .hasRingSystem)
+        // equals: hasRingSystem = try decode(Bool.self, forKey: key)
+
+        numberOfMoons = try container.decode(forKey: .numberOfMoons)
+        // equals: numberOfMoons = try decode(Int.self, forKey: key)
+        
+        distanceFromSun = try container.decode(forKey: .distanceFromSun)
+        // equals: distanceFromSun = try decode(Float.self, forKey: key)
 ```
 
 ##### 2. Even `Optional` holding these types may be inferred
 
 ```swift
-    surfacePressure = try container.decode(forKey: .surfacePressure) // Double?
+        surfacePressure = try container.decode(forKey: .surfacePressure)
+        // equals: surfacePressure = try decodeIfPresent(Double.self, forKey: key)
 ```
 
 ##### 3. Allows instances in collections to fail decoding
 
 ```swift
-    atmosphericComposition = try container.decode(forKey: .atmosphericComposition, allowInvalidElements: true) ?? []
+        atmosphericComposition = try container.decode(forKey: .atmosphericComposition, allowInvalidElements: true) ?? []
     }
 }
 ```
