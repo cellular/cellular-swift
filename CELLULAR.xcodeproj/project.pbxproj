@@ -98,6 +98,8 @@
 		157C5BB320EE4ABE001E912A /* CELLULARTests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CELLULARTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		157C5BC620EE4B60001E912A /* CELLULARTests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CELLULARTests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2825D6B3219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainer+FailableSequence.swift"; sourceTree = "<group>"; };
+		28D487A4220C4A5A00B4C972 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		28D487A5220C4A6800B4C972 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,8 @@
 		1510E7AE20ED3FB000EEB5BD = {
 			isa = PBXGroup;
 			children = (
+				28D487A4220C4A5A00B4C972 /* README.md */,
+				28D487A5220C4A6800B4C972 /* Package.swift */,
 				1510E7BA20ED3FB000EEB5BD /* Sources */,
 				1510E7C520ED3FB000EEB5BD /* Tests */,
 				1510E7B920ED3FB000EEB5BD /* Products */,
