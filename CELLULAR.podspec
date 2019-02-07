@@ -24,10 +24,6 @@ Pod::Spec.new do |spec|
         sub.source_files = 'Sources/Locking/**/*.swift'
     end
 
-    spec.subspec 'Result' do |sub|
-        sub.source_files = 'Sources/Result/**/*.swift'
-    end
-
     spec.subspec 'Storyboard' do |sub|
         sub.source_files = 'Sources/Storyboard/**/*.swift'
     end
