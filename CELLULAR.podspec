@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-    spec.version       = '5.0.1'
+    spec.version       = '5.1'
     spec.swift_version = '5.0'
     spec.module_name   = 'CELLULAR'
     spec.name          = 'CELLULAR'
@@ -30,5 +30,5 @@ Pod::Spec.new do |spec|
 
     # Default
 
-    spec.default_subspecs = 'Result', 'Locking', 'Codable', 'Storyboard'
+    spec.default_subspecs = 'Locking', 'Codable', 'Storyboard'
 end
