@@ -40,6 +40,7 @@ extension KeyedDecodingContainer {
     /// - throws: `DecodingError.keyNotFound` if `self` does not have an entry for the given key.
     /// - throws: `DecodingError.valueNotFound` if `self` has a null entry for the given key.
     public func decode<T>(forKey key: K, allowInvalidElements: Bool = false) throws -> [T]? where T: Decodable {
-        return try contains(key) ? decode(forKey: key, allowInvalidElements: allowInvalidElements) : nil
+        guard contains(key) else { return nil }
+        return try decode(forKey: key, allowInvalidElements: allowInvalidElements) as [T]
     }
 }

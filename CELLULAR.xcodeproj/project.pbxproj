@@ -198,8 +198,8 @@
 		1510E7C520ED3FB000EEB5BD /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1510E7D220ED402900EEB5BD /* UnitTests */,
 				1510E7C820ED3FB000EEB5BD /* Info.plist */,
+				1510E7D220ED402900EEB5BD /* UnitTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
