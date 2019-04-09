@@ -1,20 +1,6 @@
 import XCTest
 @testable import CELLULAR
 
-class CodableTests: XCTestCase {
-
-    static var allTests = [
-        ("testExample", testExample)
-    ]
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual("Hello, World!", "Hello, World!")
-    }
-}
-
 public struct Planet: Codable {
 
     public var hasRingSystem: Bool
@@ -37,5 +23,34 @@ public struct Planet: Codable {
         surfacePressure = try container.decode(forKey: .surfacePressure) // Double
         discoverer = try container.decode(forKey: .discoverer) // String
         atmosphericComposition = try container.decode(forKey: .atmosphericComposition, allowInvalidElements: true) ?? []
+    }
+}
+
+
+class CodableTests: XCTestCase {
+
+    static var allTests = [
+        ("testSingleDecoding", testSingleDecoding)
+    ]
+
+    func testSingleDecoding() {
+        let jsonData = """
+        {
+            "hasRingSystem" : true,
+            "numberOfMoons" : 62,
+            "distanceFromSun" : 1400,
+            "surfacePressure" : null,
+            "discoverer" : "Galileo Galilei (The first person to document the existence)",
+            "atmosphericComposition" : [
+                "Hydrogen",
+                "Helium",
+                "Methane",
+                "Ammonia",
+                "Nitrogen",
+                "Oxygen"
+            ]
+        }
+        """.data(using: .utf8)!
+        XCTAssertNoThrow(try JSONDecoder().decode(Planet.self, from: jsonData))
     }
 }

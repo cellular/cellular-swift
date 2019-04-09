@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1510E7C220ED3FB000EEB5BD /* CELLULAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1510E7B820ED3FB000EEB5BD /* CELLULAR.framework */; };
 		1510E7C920ED3FB000EEB5BD /* CELLULAR.h in Headers */ = {isa = PBXBuildFile; fileRef = 1510E7BB20ED3FB000EEB5BD /* CELLULAR.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1510E7D720ED402900EEB5BD /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D320ED402900EEB5BD /* ResultTests.swift */; };
 		1510E7D820ED402900EEB5BD /* LockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D420ED402900EEB5BD /* LockingTests.swift */; };
 		1510E7D920ED402900EEB5BD /* StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D520ED402900EEB5BD /* StoryboardTests.swift */; };
 		1510E7DA20ED402900EEB5BD /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D620ED402900EEB5BD /* CodableTests.swift */; };
@@ -18,15 +17,12 @@
 		1510E7E820ED403A00EEB5BD /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DE20ED403A00EEB5BD /* Lock.swift */; };
 		1510E7E920ED403A00EEB5BD /* DispatchLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DF20ED403A00EEB5BD /* DispatchLock.swift */; };
 		1510E7EA20ED403A00EEB5BD /* StoryboardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7E120ED403A00EEB5BD /* StoryboardIdentifier.swift */; };
-		1510E7EB20ED403A00EEB5BD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7E320ED403A00EEB5BD /* Result.swift */; };
 		1510E7EC20ED403A00EEB5BD /* KeyedDecodingContainer+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7E520ED403A00EEB5BD /* KeyedDecodingContainer+Convenience.swift */; };
 		157C5BB820EE4ABE001E912A /* CELLULAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1510E7FF20ED40C800EEB5BD /* CELLULAR.framework */; };
-		157C5BBE20EE4B1A001E912A /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D320ED402900EEB5BD /* ResultTests.swift */; };
 		157C5BBF20EE4B1A001E912A /* LockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D420ED402900EEB5BD /* LockingTests.swift */; };
 		157C5BC020EE4B1A001E912A /* StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D520ED402900EEB5BD /* StoryboardTests.swift */; };
 		157C5BC120EE4B1A001E912A /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D620ED402900EEB5BD /* CodableTests.swift */; };
 		157C5BCB20EE4B60001E912A /* CELLULAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1510E81B20ED40F300EEB5BD /* CELLULAR.framework */; };
-		157C5BD920EE6D84001E912A /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D320ED402900EEB5BD /* ResultTests.swift */; };
 		157C5BDA20EE6D84001E912A /* LockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D420ED402900EEB5BD /* LockingTests.swift */; };
 		157C5BDB20EE6D84001E912A /* StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D520ED402900EEB5BD /* StoryboardTests.swift */; };
 		157C5BDC20EE6D84001E912A /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7D620ED402900EEB5BD /* CodableTests.swift */; };
@@ -38,21 +34,18 @@
 		15C5433C20ED4335007139D3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DD20ED403A00EEB5BD /* Protected.swift */; };
 		15C5433D20ED4335007139D3 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DE20ED403A00EEB5BD /* Lock.swift */; };
 		15C5433E20ED4335007139D3 /* DispatchLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DF20ED403A00EEB5BD /* DispatchLock.swift */; };
-		15C5433F20ED4335007139D3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7E320ED403A00EEB5BD /* Result.swift */; };
 		15C5434020ED4335007139D3 /* StoryboardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7E120ED403A00EEB5BD /* StoryboardIdentifier.swift */; };
 		15C5434120ED433F007139D3 /* KeyedDecodingContainer+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7E520ED403A00EEB5BD /* KeyedDecodingContainer+Convenience.swift */; };
 		15C5434220ED433F007139D3 /* NSLock+Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DC20ED403A00EEB5BD /* NSLock+Lock.swift */; };
 		15C5434320ED433F007139D3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DD20ED403A00EEB5BD /* Protected.swift */; };
 		15C5434420ED433F007139D3 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DE20ED403A00EEB5BD /* Lock.swift */; };
 		15C5434520ED433F007139D3 /* DispatchLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DF20ED403A00EEB5BD /* DispatchLock.swift */; };
-		15C5434620ED433F007139D3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7E320ED403A00EEB5BD /* Result.swift */; };
 		15C5434720ED433F007139D3 /* StoryboardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7E120ED403A00EEB5BD /* StoryboardIdentifier.swift */; };
 		15C5434820ED4347007139D3 /* KeyedDecodingContainer+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7E520ED403A00EEB5BD /* KeyedDecodingContainer+Convenience.swift */; };
 		15C5434920ED4347007139D3 /* NSLock+Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DC20ED403A00EEB5BD /* NSLock+Lock.swift */; };
 		15C5434A20ED4347007139D3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DD20ED403A00EEB5BD /* Protected.swift */; };
 		15C5434B20ED4347007139D3 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DE20ED403A00EEB5BD /* Lock.swift */; };
 		15C5434C20ED4347007139D3 /* DispatchLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7DF20ED403A00EEB5BD /* DispatchLock.swift */; };
-		15C5434D20ED4347007139D3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7E320ED403A00EEB5BD /* Result.swift */; };
 		15C5434E20ED4347007139D3 /* StoryboardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510E7E120ED403A00EEB5BD /* StoryboardIdentifier.swift */; };
 		2825D6B4219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825D6B3219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift */; };
 		2825D6B5219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825D6B3219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift */; };
@@ -90,7 +83,6 @@
 		1510E7BC20ED3FB000EEB5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1510E7C120ED3FB000EEB5BD /* CELLULARTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CELLULARTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1510E7C820ED3FB000EEB5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1510E7D320ED402900EEB5BD /* ResultTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
 		1510E7D420ED402900EEB5BD /* LockingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockingTests.swift; sourceTree = "<group>"; };
 		1510E7D520ED402900EEB5BD /* StoryboardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardTests.swift; sourceTree = "<group>"; };
 		1510E7D620ED402900EEB5BD /* CodableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableTests.swift; sourceTree = "<group>"; };
@@ -99,7 +91,6 @@
 		1510E7DE20ED403A00EEB5BD /* Lock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
 		1510E7DF20ED403A00EEB5BD /* DispatchLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchLock.swift; sourceTree = "<group>"; };
 		1510E7E120ED403A00EEB5BD /* StoryboardIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifier.swift; sourceTree = "<group>"; };
-		1510E7E320ED403A00EEB5BD /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		1510E7E520ED403A00EEB5BD /* KeyedDecodingContainer+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainer+Convenience.swift"; sourceTree = "<group>"; };
 		1510E7F220ED40BB00EEB5BD /* CELLULAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CELLULAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1510E7FF20ED40C800EEB5BD /* CELLULAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CELLULAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +98,8 @@
 		157C5BB320EE4ABE001E912A /* CELLULARTests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CELLULARTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		157C5BC620EE4B60001E912A /* CELLULARTests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CELLULARTests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2825D6B3219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainer+FailableSequence.swift"; sourceTree = "<group>"; };
+		28D487A4220C4A5A00B4C972 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		28D487A5220C4A6800B4C972 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +161,8 @@
 		1510E7AE20ED3FB000EEB5BD = {
 			isa = PBXGroup;
 			children = (
+				28D487A4220C4A5A00B4C972 /* README.md */,
+				28D487A5220C4A6800B4C972 /* Package.swift */,
 				1510E7BA20ED3FB000EEB5BD /* Sources */,
 				1510E7C520ED3FB000EEB5BD /* Tests */,
 				1510E7B920ED3FB000EEB5BD /* Products */,
@@ -195,7 +190,6 @@
 				1510E7BB20ED3FB000EEB5BD /* CELLULAR.h */,
 				1510E7E420ED403A00EEB5BD /* Codable */,
 				1510E7DB20ED403A00EEB5BD /* Locking */,
-				1510E7E220ED403A00EEB5BD /* Result */,
 				1510E7E020ED403A00EEB5BD /* Storyboard */,
 			);
 			path = Sources;
@@ -204,8 +198,8 @@
 		1510E7C520ED3FB000EEB5BD /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1510E7D220ED402900EEB5BD /* UnitTests */,
 				1510E7C820ED3FB000EEB5BD /* Info.plist */,
+				1510E7D220ED402900EEB5BD /* UnitTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -213,7 +207,6 @@
 		1510E7D220ED402900EEB5BD /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				1510E7D320ED402900EEB5BD /* ResultTests.swift */,
 				1510E7D420ED402900EEB5BD /* LockingTests.swift */,
 				1510E7D520ED402900EEB5BD /* StoryboardTests.swift */,
 				1510E7D620ED402900EEB5BD /* CodableTests.swift */,
@@ -238,14 +231,6 @@
 				1510E7E120ED403A00EEB5BD /* StoryboardIdentifier.swift */,
 			);
 			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		1510E7E220ED403A00EEB5BD /* Result */ = {
-			isa = PBXGroup;
-			children = (
-				1510E7E320ED403A00EEB5BD /* Result.swift */,
-			);
-			path = Result;
 			sourceTree = "<group>";
 		};
 		1510E7E420ED403A00EEB5BD /* Codable */ = {
@@ -433,24 +418,31 @@
 				TargetAttributes = {
 					1510E7B720ED3FB000EEB5BD = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 					1510E7C020ED3FB000EEB5BD = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 					1510E7F120ED40BB00EEB5BD = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 					1510E7FE20ED40C800EEB5BD = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 					1510E81A20ED40F300EEB5BD = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 					157C5BB220EE4ABE001E912A = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1020;
 					};
 					157C5BC520EE4B60001E912A = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -460,6 +452,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 1510E7AE20ED3FB000EEB5BD;
 			productRefGroup = 1510E7B920ED3FB000EEB5BD /* Products */;
@@ -534,7 +527,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1510E7EB20ED403A00EEB5BD /* Result.swift in Sources */,
 				1510E7E720ED403A00EEB5BD /* Protected.swift in Sources */,
 				1510E7EC20ED403A00EEB5BD /* KeyedDecodingContainer+Convenience.swift in Sources */,
 				1510E7E820ED403A00EEB5BD /* Lock.swift in Sources */,
@@ -550,7 +542,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1510E7D920ED402900EEB5BD /* StoryboardTests.swift in Sources */,
-				1510E7D720ED402900EEB5BD /* ResultTests.swift in Sources */,
 				1510E7DA20ED402900EEB5BD /* CodableTests.swift in Sources */,
 				1510E7D820ED402900EEB5BD /* LockingTests.swift in Sources */,
 			);
@@ -565,7 +556,6 @@
 				15C5433C20ED4335007139D3 /* Protected.swift in Sources */,
 				15C5433D20ED4335007139D3 /* Lock.swift in Sources */,
 				15C5433E20ED4335007139D3 /* DispatchLock.swift in Sources */,
-				15C5433F20ED4335007139D3 /* Result.swift in Sources */,
 				2825D6B5219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift in Sources */,
 				15C5434020ED4335007139D3 /* StoryboardIdentifier.swift in Sources */,
 			);
@@ -580,7 +570,6 @@
 				15C5434320ED433F007139D3 /* Protected.swift in Sources */,
 				15C5434420ED433F007139D3 /* Lock.swift in Sources */,
 				15C5434520ED433F007139D3 /* DispatchLock.swift in Sources */,
-				15C5434620ED433F007139D3 /* Result.swift in Sources */,
 				2825D6B6219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift in Sources */,
 				15C5434720ED433F007139D3 /* StoryboardIdentifier.swift in Sources */,
 			);
@@ -595,7 +584,6 @@
 				15C5434A20ED4347007139D3 /* Protected.swift in Sources */,
 				15C5434B20ED4347007139D3 /* Lock.swift in Sources */,
 				15C5434C20ED4347007139D3 /* DispatchLock.swift in Sources */,
-				15C5434D20ED4347007139D3 /* Result.swift in Sources */,
 				2825D6B7219AE924004C82E5 /* KeyedDecodingContainer+FailableSequence.swift in Sources */,
 				15C5434E20ED4347007139D3 /* StoryboardIdentifier.swift in Sources */,
 			);
@@ -607,7 +595,6 @@
 			files = (
 				157C5BC120EE4B1A001E912A /* CodableTests.swift in Sources */,
 				157C5BC020EE4B1A001E912A /* StoryboardTests.swift in Sources */,
-				157C5BBE20EE4B1A001E912A /* ResultTests.swift in Sources */,
 				157C5BBF20EE4B1A001E912A /* LockingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,7 +604,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				157C5BDB20EE6D84001E912A /* StoryboardTests.swift in Sources */,
-				157C5BD920EE6D84001E912A /* ResultTests.swift in Sources */,
 				157C5BDC20EE6D84001E912A /* CodableTests.swift in Sources */,
 				157C5BDA20EE6D84001E912A /* LockingTests.swift in Sources */,
 			);
@@ -695,15 +681,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
 		};
@@ -753,15 +742,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
 		};
@@ -778,7 +770,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -787,6 +778,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.ios.CELLULAR;
 				PRODUCT_NAME = CELLULAR;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -805,7 +797,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -814,6 +805,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.ios.CELLULAR;
 				PRODUCT_NAME = CELLULAR;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -822,7 +814,6 @@
 		1510E7D020ED3FB000EEB5BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -831,6 +822,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.ios.CELLULARTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -838,7 +830,6 @@
 		1510E7D120ED3FB000EEB5BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -847,6 +838,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.ios.CELLULARTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -875,7 +867,6 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
 		};
@@ -903,7 +894,6 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
 		};
@@ -931,7 +921,6 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Debug;
 		};
@@ -959,7 +948,6 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Release;
 		};
@@ -983,7 +971,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.ios.CELLULAR-macOS";
 				PRODUCT_NAME = CELLULAR;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1012,7 +999,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.ios.CELLULAR-macOS";
 				PRODUCT_NAME = CELLULAR;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1036,7 +1022,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.3;
 			};
 			name = Debug;
 		};
@@ -1054,7 +1039,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.3;
 			};
 			name = Release;
 		};
@@ -1070,7 +1054,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.ios.CELLULARTests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1090,7 +1073,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.ios.CELLULARTests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1107,7 +1089,7 @@
 				1510E7CB20ED3FB000EEB5BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1510E7CC20ED3FB000EEB5BD /* Build configuration list for PBXNativeTarget "CELLULAR iOS" */ = {
 			isa = XCConfigurationList;
@@ -1116,7 +1098,7 @@
 				1510E7CE20ED3FB000EEB5BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1510E7CF20ED3FB000EEB5BD /* Build configuration list for PBXNativeTarget "CELLULARTests iOS" */ = {
 			isa = XCConfigurationList;
@@ -1125,7 +1107,7 @@
 				1510E7D120ED3FB000EEB5BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1510E7F720ED40BB00EEB5BD /* Build configuration list for PBXNativeTarget "CELLULAR watchOS" */ = {
 			isa = XCConfigurationList;
@@ -1134,7 +1116,7 @@
 				1510E7F920ED40BB00EEB5BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1510E81020ED40C800EEB5BD /* Build configuration list for PBXNativeTarget "CELLULAR tvOS" */ = {
 			isa = XCConfigurationList;
@@ -1143,7 +1125,7 @@
 				1510E81220ED40C800EEB5BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1510E82020ED40F300EEB5BD /* Build configuration list for PBXNativeTarget "CELLULAR macOS" */ = {
 			isa = XCConfigurationList;
@@ -1152,7 +1134,7 @@
 				1510E82220ED40F300EEB5BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		157C5BBB20EE4ABE001E912A /* Build configuration list for PBXNativeTarget "CELLULARTests tvOS" */ = {
 			isa = XCConfigurationList;
@@ -1161,7 +1143,7 @@
 				157C5BBD20EE4ABE001E912A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		157C5BCE20EE4B60001E912A /* Build configuration list for PBXNativeTarget "CELLULARTests macOS" */ = {
 			isa = XCConfigurationList;
@@ -1170,7 +1152,7 @@
 				157C5BD020EE4B60001E912A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

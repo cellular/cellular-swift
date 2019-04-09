@@ -3,5 +3,4 @@ import XCTest
 
 XCTMain([
     testCase(CodableTests.allTests),
-    testCase(ResultTests.allTests)
 ])

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-    spec.version       = '5.0.1'
-    spec.swift_version = '4.2'
+    spec.version       = '5.1'
+    spec.swift_version = '5.0'
     spec.module_name   = 'CELLULAR'
     spec.name          = 'CELLULAR'
     spec.summary       = 'Collection of µ-frameworks and utility classes/extensions used in CELLULAR projects.'
@@ -24,15 +24,11 @@ Pod::Spec.new do |spec|
         sub.source_files = 'Sources/Locking/**/*.swift'
     end
 
-    spec.subspec 'Result' do |sub|
-        sub.source_files = 'Sources/Result/**/*.swift'
-    end
-
     spec.subspec 'Storyboard' do |sub|
         sub.source_files = 'Sources/Storyboard/**/*.swift'
     end
 
     # Default
 
-    spec.default_subspecs = 'Result', 'Locking', 'Codable', 'Storyboard'
+    spec.default_subspecs = 'Locking', 'Codable', 'Storyboard'
 end
