@@ -20,7 +20,7 @@ extension KeyedDecodingContainer {
         // Directly read from unkeyed container behind given `key`
         var container = try nestedUnkeyedContainer(forKey: key)
         guard let numberOfElements = container.count else {
-            throw DecodingError.dataCorruptedError(in: container, debugDescription: "Container of unknown lenght")
+            throw DecodingError.dataCorruptedError(in: container, debugDescription: "Container of unknown length")
         }
 
         // Decodes each element optionally
