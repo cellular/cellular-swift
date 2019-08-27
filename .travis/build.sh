@@ -8,6 +8,9 @@ if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
 
 else # iOS | watchOS | tvOS | macOS
 
+    # Generate xcodeproj for building/testing
+    swift package generate-xcodeproj;
+
     # Prepare
     set -o pipefail; # xcpretty
     xcodebuild -version;
