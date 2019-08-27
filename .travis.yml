@@ -39,7 +39,7 @@ matrix:
         - os: osx
           env: DESTINATION="OS=12.0,name=iPhone XS"
         - os: osx
-          env: DESTINATION="OS=11.0,name=iPhone X"
+          env: DESTINATION="OS=11.0.1,name=iPhone X"
         # watchOS
         - os: osx 
           env: DESTINATION="OS=5.2,name=Apple Watch Series 4 - 44mm" RUN_TESTS="NO"
