@@ -1,3 +1,4 @@
+#if os(iOS) || os(tvOS) || os(watchOS) || os(macOS)
 import Foundation
 
 extension NSLock: Lock {
@@ -23,3 +24,4 @@ extension NSLock: Lock {
         return try read(closure)
     }
 }
+#endif

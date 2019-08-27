@@ -101,6 +101,7 @@ class LockingTests: XCTestCase {
         }
     }
 
+#if os(iOS) || os(watchOS) || os(tvOS) || os(macOS)
     // Will test blocking mechanism of NSLock
     func testFoundationLock() {
 
@@ -164,6 +165,7 @@ class LockingTests: XCTestCase {
             if let error = error { XCTFail(error.localizedDescription) }
         }
     }
+#endif
 }
 
 // MARK: - Linux
@@ -173,8 +175,7 @@ extension LockingTests {
 
     public static var allTests = [
         ("testDispatchLockConcurrentRead", testDispatchLockConcurrentRead),
-        ("testDispatchLockWrite", testDispatchLockWrite),
-        ("testFoundationLock", testFoundationLock)
+        ("testDispatchLockWrite", testDispatchLockWrite)
     ]
 }
 #endif
