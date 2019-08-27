@@ -17,15 +17,15 @@ Pod::Spec.new do |spec|
     # Subspecs
 
     spec.subspec 'Codable' do |sub|
-        sub.source_files = 'Sources/CELLULAR/Codable/**/*.swift'
+        sub.source_files = 'Sources/Codable/**/*.swift'
     end
 
     spec.subspec 'Locking' do |sub|
-        sub.source_files = 'Sources/CELLULAR/Locking/**/*.swift'
+        sub.source_files = 'Sources/Locking/**/*.swift'
     end
 
     spec.subspec 'Storyboard' do |sub|
-        sub.source_files = 'Sources/CELLULAR/Storyboard/**/*.swift'
+        sub.source_files = 'Sources/Storyboard/**/*.swift'
     end
 
     # Default
