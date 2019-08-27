@@ -1,5 +1,5 @@
 import XCTest
-@testable import CELLULAR
+@testable import Codable
 
 public struct Planet: Codable {
 

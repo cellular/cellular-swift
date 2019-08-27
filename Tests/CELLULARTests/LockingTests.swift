@@ -1,5 +1,5 @@
 import XCTest
-@testable import CELLULAR
+@testable import Locking
 
 class LockingTests: XCTestCase {
 
