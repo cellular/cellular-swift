@@ -31,7 +31,7 @@ matrix:
 
         # macOS
         - os: osx
-          env: DESTINATION="arch=x86_64" SCHEME="CELLULAR macOS"
+          env: DESTINATION="arch=x86_64" SCHEME="CELLULAR macOS" POD_LINT="YES"
 
         # iOS
         - os: osx
