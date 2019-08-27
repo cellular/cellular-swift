@@ -1,4 +1,8 @@
-# 6.0
+# 6.0.1
+
+- Merges "submodule" into one CELLULAR module
+
+# 6.0.0
 
 - Bumps swift version (Swift 5.1)
 - Bumps iOS Deployment Target (iOS 11.0)

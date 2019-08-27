@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-    spec.version       = '6.0'
+    spec.version       = '6.0.1'
     spec.swift_version = '5.1'
     spec.module_name   = 'CELLULAR'
     spec.name          = 'CELLULAR'
@@ -17,15 +17,15 @@ Pod::Spec.new do |spec|
     # Subspecs
 
     spec.subspec 'Codable' do |sub|
-        sub.source_files = 'Sources/Codable/**/*.swift'
+        sub.source_files = 'Sources/CELLULAR/Codable/**/*.swift'
     end
 
     spec.subspec 'Locking' do |sub|
-        sub.source_files = 'Sources/Locking/**/*.swift'
+        sub.source_files = 'Sources/CELLULAR/Locking/**/*.swift'
     end
 
     spec.subspec 'Storyboard' do |sub|
-        sub.source_files = 'Sources/Storyboard/**/*.swift'
+        sub.source_files = 'Sources/CELLULAR/Storyboard/**/*.swift'
     end
 
     # Default

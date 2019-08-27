@@ -112,7 +112,7 @@ Once you have your Swift package set up, adding CELLULAR as a dependency is as e
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/cellular/cellular-swift.git", from: "6.0")
+    .package(url: "https://github.com/cellular/cellular-swift.git", from: "6.0.1")
 ]
 ```
 
