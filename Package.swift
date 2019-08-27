@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "CELLULAR", targets: ["CELLULAR"])
     ],
     targets: [
-        .target(name: "CELLULAR", path: "Sources"),
-        .testTarget(name: "UnitTests", dependencies: ["CELLULAR"])
+        .target(name: "CELLULAR"),
+        .testTarget(name: "CELLULARTests", dependencies: ["CELLULAR"])
     ]
 )
