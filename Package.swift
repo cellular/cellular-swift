@@ -1,13 +1,15 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
     name: "CELLULAR",
     products: [
-        .library(name: "CELLULAR", targets: ["CELLULAR"])
+        .library(name: "CELLULAR", targets: ["Codable", "Locking", "Storyboard"])
     ],
     targets: [
-        .target(name: "CELLULAR", path: "Sources"),
-        .testTarget(name: "UnitTests", dependencies: ["CELLULAR"])
+        .target(name: "Codable"),
+        .target(name: "Locking"),
+        .target(name: "Storyboard"),
+        .testTarget(name: "CELLULARTests", dependencies: ["Codable", "Locking", "Storyboard"])
     ]
 )

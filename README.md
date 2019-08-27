@@ -22,7 +22,7 @@
         <img src="https://img.shields.io/cocoapods/v/CELLULAR.svg" alt="CocoaPods Compatible" />
     </a>
     <a href="https://swift.org">
-        <img src="https://img.shields.io/badge/swift-5.0-orange.svg" alt="Swift Version" />
+        <img src="https://img.shields.io/badge/swift-5.0+-orange.svg" alt="Swift Version" />
     </a>
     <img src="https://img.shields.io/badge/platform-iOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20macOS%20%7C%20linux-lightgrey.svg" alt="Platform" />
 </h4>
@@ -101,7 +101,7 @@ TODO
 
 ## Requirements
 
-- iOS 9.3+ | watchOS 2.2+ | tvOS 9.2+ | macOS 10.10+ | Ubuntu 14.04+
+- iOS 11.0+ | watchOS 5.0+ | tvOS 11.0+ | macOS 10.14+ | Ubuntu 14.04+
 - Swift 5.0+
 
 ## Installation
@@ -112,7 +112,7 @@ Once you have your Swift package set up, adding CELLULAR as a dependency is as e
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/cellular/cellular-swift.git", from: "5.0")
+    .package(url: "https://github.com/cellular/cellular-swift.git", from: "6.0")
 ]
 ```
 

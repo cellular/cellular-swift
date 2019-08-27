@@ -30,23 +30,8 @@ timeline.xctimeline
 playground.xcworkspace
 
 ## Swift Package Manager
+.build/
+.swiftpm
 Packages/
 Package.pins
 Package.resolved
-.build/
-
-## CocoaPods
-Pods/
-
-## Carthage
-Carthage/Checkouts
-Carthage/Build
-
-## fastlane
-.bundle
-/Preview.html
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
-fastlane/README.md

@@ -8,22 +8,19 @@ if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
 
 else # iOS | watchOS | tvOS | macOS
 
+    # Generate xcodeproj for building/testing
+    swift package generate-xcodeproj;
+
     # Prepare
     set -o pipefail; # xcpretty
     xcodebuild -version;
     xcodebuild -showsdks;
 
     # Build Framework in Debug and Run Tests if specified
-    if [ $RUN_TESTS == "YES" ]; then
-        xcodebuild -project "CELLULAR.xcodeproj" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty;
+    if [ $RUN_TESTS == "NO" ]; then
+        xcodebuild -project CELLULAR.xcodeproj -scheme CELLULAR-Package -destination "$DESTINATION" -configuration Release ONLY_ACTIVE_ARCH=NO | xcpretty;
     else
-        xcodebuild -project "CELLULAR.xcodeproj" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty;
-    fi
-    # Build Framework in Release and Run Tests if specified
-    if [ $RUN_TESTS == "YES" ]; then
-        xcodebuild -project "CELLULAR.xcodeproj" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Release ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty;
-    else
-        xcodebuild -project "CELLULAR.xcodeproj" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Release ONLY_ACTIVE_ARCH=NO build | xcpretty;
+        xcodebuild test -project CELLULAR.xcodeproj -scheme CELLULAR-Package -destination "$DESTINATION" -configuration Release ONLY_ACTIVE_ARCH=NO | xcpretty;
     fi
     # Run `pod lib lint` if specified
     if [ $POD_LINT == "YES" ]; then
