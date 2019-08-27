@@ -1,7 +1,7 @@
 sudo: required
 dist: trusty
 language: generic
-osx_image: xcode10.2
+osx_image: xcode11
 
 # Dependencies
 before_install: chmod +x ./.travis/deps.sh
