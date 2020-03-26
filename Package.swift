@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "CELLULAR",
     products: [
-        .library(name: "CELLULAR", targets: ["CELLULAR"])
+        .library(name: "CELLULAR", type: .dynamic, targets: ["CELLULAR"])
     ],
     targets: [
         .target(name: "CELLULAR"),
